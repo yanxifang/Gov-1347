@@ -1,8 +1,14 @@
-## Welcome to GitHub Pages
+## Government 1347 Blog
+
+Welcome to my election analysis blog for Gov 1347 at Harvard University!
 
 You can use the [editor on GitHub](https://github.com/yanxifang/Gov-1347/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### 1. Introduction
+
+
 
 ### Markdown
 

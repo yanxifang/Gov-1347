@@ -1,9 +1,9 @@
 # Government 1347 Blog
 
-Welcome to my election analysis blog for Gov 1347 at Harvard University!
+Welcome to my election analysis blog for Government 1347 (Election Analytics) at Harvard University!
 
 ## 1. Introduction
-This blog includes all of my predictive model and visualization work for Government 1347 (Election Analytics), which I am taking during the Fall 2020 semester at Harvard University. Over the course of the semester, I will be updating the blog every Friday with new data, models, predictions, or visualizations. Please note that any opinions expressed on this page are mine only, and do not express the views or opinions of any other entity.
+This blog includes all of my predictive model and visualization work for Gov 1347, which I am taking during the Fall 2020 semester at Harvard University. Over the course of the semester, I will be updating the blog every Friday with new data, models, predictions, or visualizations. Please note that any opinions expressed on this page are mine only, and do not express the views or opinions of any other entity.
 
 ## 2. 
 

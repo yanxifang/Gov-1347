@@ -1,14 +1,11 @@
-## Government 1347 Blog
+# Government 1347 Blog
 
 Welcome to my election analysis blog for Gov 1347 at Harvard University!
 
-You can use the [editor on GitHub](https://github.com/yanxifang/Gov-1347/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## 1. Introduction
+This blog includes all of my predictive model and visualization work for Government 1347 (Election Analytics), which I am taking during the Fall 2020 semester at Harvard University. Over the course of the semester, I will be updating the blog every Friday with new data, models, predictions, or visualizations. Please note that any opinions expressed on this page are mine only, and do not express the views or opinions of any other entity.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### 1. Introduction
-
-
+## 2. 
 
 ### Markdown
 

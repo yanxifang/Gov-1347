@@ -6,4 +6,4 @@ The individual weekly posts are located in the *_posts* folder.
 
 The data files that I've used are located in the *data* folder.
 
-My R scripts are located in the *scripts* folder.
+My R scripts are located in the *scripts* folder, and graphics can be found in the *images* folder.

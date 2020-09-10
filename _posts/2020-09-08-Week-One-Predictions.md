@@ -10,6 +10,6 @@ This week, I am analyzing historical election results from 1948 to 2016. Since a
 ### National-Level Data
 To start, I will use the simplest data possible: the two-party vote share in past elections. As shown below, there is significant fluctuation over time in the vote share, between the two major parties. This suggests that presidential elections in the United States have been quite competitive in the past.  , this data does have a major limitation: due to the Electoral College system, receiving a majority of votes does not imply victory in the election. However, information about the winning party is readily available and can be easily added on.
 
-![Two-Party Presidential Popular Vote Share (1948-2016)](../figures/PV_national_historical.png)
+![Two-Party Presidential Popular Vote Share (1948-2016)](../images/PV_national_historical.png)
 
 Click [here](https://yanxifang.github.io/Gov-1347/) to return to the front page.

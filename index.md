@@ -7,7 +7,7 @@ Please note that any opinions expressed on this page are mine only, and do not e
 
 ## Blog
 
-### [Week 1: Historical Election Data](https://yanxifang.github.io/Gov-1347/2020/09/08/Week-One-Predictions.html)
+### [Week 1: Historical Election Data](https://yanxifang.github.io/Gov-1347/2020/09/11/Week-One-Predictions.html)
 Friday, September 11, 2020: This week, I am analyzing historical election data from 1948-2016. Click on the link above to see more!
 
 ### [(Coming Soon) Week 2: Economic Data](https://yanxifang.github.io/Gov-1347/2020/09/08/Week-Two-Predictions.html)

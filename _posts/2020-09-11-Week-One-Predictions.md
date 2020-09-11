@@ -1,6 +1,6 @@
 ---
 title: "Week 1 Analysis: Historical Data, 1948-2016"
-date: 2020-09-10
+date: 2020-09-11
 ---
 ## Week 1 Analysis: Historical Data, 1948-2016
 *Friday, September 11, 2020*
@@ -25,12 +25,12 @@ Combining some online research with my existing knowledge, here are the contexts
 **1984: Ronald Reagan vs. Walter Mondale; EV: 525-13**
 
 In the 1984 presidential election, incumbent President Ronald Reagan attracted many traditionally Democratic voter groups, including 18-24 year-old voters, Roman Catholics, and many union households. Combining this support with his strong personal popularity, Reagan defeated Democratic nominee Walter Mondale, who had picked Geraldine Ferraro, the first woman on a major party presidential ticket, as his running mate. Additionally, at the Democratic National Convention earlier that year, Mondale had acknowledged his plan to raise taxes, providing a key contrast against Reagan, whose handling of the economy was the strongest factor that attracted voters to him. While the electoral vote was 525 to 13, the popular vote was approximately 59 to 41 percent.
-Sources: [*New York Times*](https://www.nytimes.com/1984/11/07/politics/reagan-wins-by-a-landslide-sweeping-at-least-48-states-gop-gains.html), [*National Archives*](https://www.archives.gov/electoral-college/1984)
+(Sources: [*New York Times*](https://www.nytimes.com/1984/11/07/politics/reagan-wins-by-a-landslide-sweeping-at-least-48-states-gop-gains.html), [*National Archives*](https://www.archives.gov/electoral-college/1984))
 
 **1972: Richard Nixon vs. George McGovern; EV: 520-17**
 
 In the 1972 presidential election, incumbent President Richard Nixon promised to replace the unpopular Vietnam War draft with an all-volunteer force, and to gradually reduce the number of active U.S. troops. This weakened the impact of Democratic nominee George McGovern's main policy of immediately ending the war. Further reducing his chances of electoral success, McGovern was also plagued by the revelation that his running mate, Sen. Thomas Eagleton, had undergone shock therapy for depression. Although Nixon would soon be embroiled in the Watergate Scandal, he won 520 electoral votes and more than 60 percent of the popular vote, compared to McGovern's 17 electoral votes and 37.5 percent.
-Sources: [*Politico*](https://www.politico.com/story/2018/11/07/this-day-in-politics-november-7-963516), [*National Archives*](https://www.archives.gov/electoral-college/1972)
+(Sources: [*Politico*](https://www.politico.com/story/2018/11/07/this-day-in-politics-november-7-963516), [*National Archives*](https://www.archives.gov/electoral-college/1972))
 
 Nonetheless, even if elections aren't as close as they may appear to be, the popular vote data is still relevant. In particular, the polls and forecasts available to the general public (e.g. through the media) typically includes only popular vote percentages, not Electoral College vote projections. Intuitively, this should mean that electoral closeness simply isn't on the public's minds, implying that popular vote closeness is still important - at least when considering the impacts on voter turnout.
 

@@ -1,0 +1,37 @@
+year,party,winner,candidate,ev
+1948,democrat,TRUE,"Truman, Harry",303
+1948,republican,FALSE,"Dewey, Thomas",189
+1952,democrat,FALSE,"Stevenson, Adlai",89
+1952,republican,TRUE,"Eisenhower, Dwight",442
+1956,democrat,FALSE,"Stevenson, Adlai",73
+1956,republican,TRUE,"Eisenhower, Dwight",457
+1960,republican,FALSE,"Nixon, Richard M.",219
+1960,democrat,TRUE,"Kennedy, John F.",303
+1964,republican,FALSE,"Goldwater, Barry",52
+1964,democrat,TRUE,"Johnson, Lyndon B.",486
+1968,republican,TRUE,"Nixon, Richard M.",301
+1968,democrat,FALSE,"Humphrey, Hubert",191
+1972,republican,TRUE,"Nixon, Richard M.",520
+1972,democrat,FALSE,"McGovern, George",17
+1976,democrat,TRUE,"Carter, Jimmy",297
+1976,republican,FALSE,"Ford, Gerald",240
+1980,democrat,FALSE,"Carter, Jimmy",49
+1980,republican,TRUE,"Reagan, Ronald",489
+1984,democrat,FALSE,"Mondale, Walter",13
+1984,republican,TRUE,"Reagan, Ronald",525
+1988,democrat,FALSE,"Dukakis, Michael",111
+1988,republican,TRUE,"Bush, George H.W.",426
+1992,democrat,TRUE,"Clinton, Bill",370
+1992,republican,FALSE,"Bush, George H.W.",168
+1996,democrat,TRUE,"Clinton, Bill",379
+1996,republican,FALSE,"Dole, Robert",159
+2000,democrat,FALSE,"Gore, Al",266
+2000,republican,TRUE,"Bush, George W.",271
+2004,democrat,FALSE,"Kerry, John",251
+2004,republican,TRUE,"Bush, George W.",286
+2008,democrat,TRUE,"Obama, Barack H.",365
+2008,republican,FALSE,"McCain, John",173
+2012,democrat,TRUE,"Obama, Barack H.",332
+2012,republican,FALSE,"Romney, Mitt",206
+2016,democrat,FALSE,"Clinton, Hillary",277
+2016,republican,TRUE,"Trump, Donald J.",304

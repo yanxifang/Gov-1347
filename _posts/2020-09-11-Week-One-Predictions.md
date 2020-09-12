@@ -38,5 +38,10 @@ My conclusion here is that while elections aren't actually as close as they may 
 
 After showing that electoral results are considerably less close than the popular vote, I will now turn my attention to state-level data. State data is more interesting, particularly for swing states, because a candidate who wins many such states can easily achieve an electoral landslide.
 
+There are several ways to analyze (or perhaps just identify) swing states. One approach is calculating the popular vote margins at the state level. For any given presidential election, the smaller that the state-level margins are, the more likely that a state will switch between supporting the Democratic and the Republican candidate. However, this only provides a limited analysis: for example, certain states may have consistently close margins but never cross over (i.e. to the other party), while other states could The other logical approach is to analyze state-level margins, but with a specific focus on the change between two consecutive election years. 
+
+I have selected the second approach. I calculated "swing margins" as the difference in Below is a visualization of popular-vote swing margins.
+
+![State-Level Popular Vote Swing Margins (1980-2016)](https://yanxifang.github.io/Gov-1347/images/PV_states_historical.png)
 
 Click [here](https://yanxifang.github.io/Gov-1347/) to return to the front page.

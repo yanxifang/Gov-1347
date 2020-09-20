@@ -11,4 +11,4 @@ Please note that any opinions expressed on this page are mine only, and do not e
 Friday, September 11, 2020: This week, I am analyzing historical election data from 1948-2016. Click on the link above to see more!
 
 ### [(Coming Soon) Week 2: Economic Data](https://yanxifang.github.io/Gov-1347/2020/09/18/Week-Two-Predictions.html)
-Coming Soon - Friday, September 18, 2020.
+Friday, September 18, 2020: I am using GDP and unemployment data as indicators of the economy to predict election outcomes.

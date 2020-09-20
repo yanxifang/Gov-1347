@@ -17,7 +17,11 @@ The logical place to start is with national-level GDP. GDP is [often used](https
 
 I will be using **changes in second-quarter GDP** and the **national-level 2-party vote share** as the two variables in my analysis. I am using national-level vote share data because GDP is an inherently national measure. I am focusing specifically on the second-quarter of each election year because of (a) the Achen and Bartels model, (b) the value of early predictions, and (c) the unavailability of third-quarter data. First, as stated earlier, Achen and Bartels argue that voters hold unique time horizons and significantly discount the earlier economic performance of an incumbent. I agree with this assumption. According to the Pew Research Center, [only 36% of registered voters](https://www.pewresearch.org/politics/2020/06/02/in-changing-u-s-electorate-race-and-education-remain-stark-dividing-lines/) have a 4-year college degree. This means that the majority of registered voters (and thus the "average" voter) may have difficulty comprehending the many different types of economic reporting that come from the media, and it is likely that this group will remember only the latest reporting (i.e. second-quarter GDP results). Additionally, at least for 2020, second-quarter GDP data is [released by the Bureau of Economic Analysis](https://www.bea.gov/news/schedule/full) on July 30, while third-quarter data is unavailable until October 29, just a few days before the election. This means that second-quarter GDP is the most up-to-date information that is available, since last-minute forecasts are minimally useful (for example, a forecast of rainy weather is not useful if the first time you see the forecast is after you left your umbrella at home).
 
-Below are the results of my analysis. Notably, **there is not a strong relationship between changes in second-quarter GDP and the national-level 2-party vote share**. The regression equation is:
+Below are the results of my analysis. Notably, **there is not a strong relationship between changes in second-quarter GDP and the national-level 2-party vote share**. 
+
+![Second-Quarter GDP Growth vs Two-Party Presidential Popular Vote Share (1948-2016)](https://yanxifang.github.io/Gov-1347/images/PV_natl_gdp.png)
+
+The regression equation for the graph above is:
 ```
 (Nat'l 2-Party Vote Share) = 49.449 + 2.969 * (Change in Second-Quarter GDP)
 ```

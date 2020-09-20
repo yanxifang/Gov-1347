@@ -19,7 +19,7 @@ I will be using **changes in second-quarter GDP** and the **national-level 2-par
 
 Below are the results of my analysis. Notably, **there is not a strong relationship between changes in second-quarter GDP and the national-level 2-party vote share**. The regression equation is:
 ```
-(Nat'l 2-Party Vote Share) = 49.449 + 2.969 /times (Change in Second-Quarter GDP)
+(Nat'l 2-Party Vote Share) = 49.449 + 2.969 * (Change in Second-Quarter GDP)
 ```
 
 ### National Level Unemployment Data

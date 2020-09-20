@@ -241,7 +241,7 @@ econ_ue_1q2q <- econ_ue_1q2q %>%
 econ_ue_1q2q <- econ_ue_1q2q %>%
   filter(quarter == 2) # filter out inaccurate values in the Q1 rows
 
-## second model fit
+## third/final model fit
 lm_econ_ue_delta <- lm(pv2p ~ delta_ue, data = econ_ue_1q2q)
 summary(lm_econ_ue_delta) # still not very useful!
 
@@ -387,4 +387,4 @@ econ_multiple <- econ_gdp2q %>%
 lm_econ_multiple <- lm(incumb_pv2p ~ 
                          GDP_growth_qt + local_ave_ue,
                        data = econ_multiple)
-summary(lm_econ_multiple) # still terrible
+summary(lm_econ_multiple) # still terrible, decided not to include in the blog

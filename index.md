@@ -12,3 +12,6 @@ Friday, September 11, 2020: This week, I am analyzing historical election data f
 
 ### [Week 2: Economic Data](https://yanxifang.github.io/Gov-1347/2020/09/18/Week-Two-Predictions.html)
 Friday, September 18, 2020: I am using GDP and unemployment data as indicators of the economy to predict election outcomes.
+
+### [Week 3: Polling Data](https://yanxifang.github.io/Gov-1347/2020/09/25/Week-Three-Predictions.html)
+Friday, September 25, 2020: This week, I analyze the validity of using polling data as a preidctor for presidential election outcomes.

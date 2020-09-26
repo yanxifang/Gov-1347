@@ -9,7 +9,9 @@ date: 2020-09-25
 This week, I will analyze polling data to determine if they are good indicators of the outcomes of presidential elections. 
 
 ### Assumptions and Theoretical Background
-The [1936 *Literary Digest* poll](https://ebookcentral-proquest-com.ezp-prod1.hul.harvard.edu/lib/harvard-ebooks/detail.action?docID=6270706) was perhaps one of the earliest well-known examples of American polling failures. Although the poll gathered an impressive 2.3 million responses, it incorrectly predicted a landslide victory for Republican challenger Alf Landon, estimating that he would carry 33 states and 370 electoral votes. Instead, incumbent Franklin Roosevelt enjoyed an overwhelming landslide, capturing 523 (out of 531) electoral votes and every state except Maine and Vermont.
+The 1936 *Literary Digest* poll was perhaps one of the earliest well-known examples of [American polling failures](https://ebookcentral-proquest-com.ezp-prod1.hul.harvard.edu/lib/harvard-ebooks/detail.action?docID=6270706). Although the poll gathered an impressive 2.3 million responses, it incorrectly predicted a landslide victory for Republican challenger Alf Landon, estimating that he would carry 33 states and 370 electoral votes. Instead, incumbent Franklin Roosevelt enjoyed an overwhelming landslide, capturing 523 (out of 531) electoral votes and every state except Maine and Vermont.
+
+
 
 ### Poll Quality
 Polls vary in quality based on their sample size and method of sampling, while pollsters vary in quality based on their past polls and their tendency to be more favorable to one of the two major political parties. However, how much do polls vary in quality? Do polls generally under- or over-state the expected vote share of either the Democratic or Republican parties?

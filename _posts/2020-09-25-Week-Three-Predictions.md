@@ -27,7 +27,7 @@ There are several interesting observations here. First, **the different "grades"
 ### State-Level Polls
 Ultimately, national-level polls are only interesting in the sense that they provide an approximate indication of the level of support that each of the two major-party candidates have. Due to the setup of the Electoral College, these **national-level polls are generally not informative about whether a candidate will capture enough electoral votes for an actual victory**; an examination of state-by-state predictions is required. So, the next question is: are state-level polls accurate?
 
-As it turns out, the **state-level polls, on average, have been quite accurate.** From 1972 to 2016, across all 50 states (and the District of Columbia), the poll prediction has been the most accurate indicator of the state-level election outcome. Surprisingly, the date of the polls 
+As it turns out, the **state-level polls, on average, have been quite accurate.** From 1972 to 2016, across all 50 states (and the District of Columbia), the poll prediction has been the most accurate indicator of the state-level election outcome. Surprisingly, the date of the polls (i.e. proximity to the election) and the 
 
 ![State Poll Predictions versus Received Vote Share, 1972-2016](https://yanxifang.github.io/Gov-1347/images/state_polls_by_party.png)
 

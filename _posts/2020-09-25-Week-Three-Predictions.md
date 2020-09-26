@@ -35,4 +35,6 @@ As it turns out, the **state-level polls, on average, have been quite accurate.*
 
 ![Democratic versus Republican State Polls, 1972-2016](https://yanxifang.github.io/Gov-1347/images/state_poll_twoparty.png)
 
-### Implications and Conclusions
+### Prediction
+
+![Poll Predicted Election Results for 2020](https://yanxifang.github.io/Gov-1347/images/poll_predicted_winner.png)

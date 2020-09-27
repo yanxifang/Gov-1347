@@ -35,9 +35,11 @@ Below is a scatterplot with points representing each individual poll in my datas
 
 ![State Poll Predictions versus Received Vote Share, 1972-2016](https://yanxifang.github.io/Gov-1347/images/state_polls_by_party.png)
 
-As shown above, 
+As shown above, the overwhelming trend is that **the majority of polls tend to be clustered above the 45-degree line; this is reinforced by the fact that the regression line is above the dashed line. This means that polls generally over-predict the percentage of the popular vote that candidates receive, implying that polls should be revised downward in predicting election outcomes. In addition, there appears to be a slightly uneven distribution between the Democratic predictions and the Republican predictions; more blue-colored dots appear to be closer to the regression line than red-colored dots. So, I decided to separate the poll predictions for the two parties, as shown below:
 
 ![Democratic versus Republican State Polls, 1972-2016](https://yanxifang.github.io/Gov-1347/images/state_poll_twoparty.png)
+
+(Important note: the x-scales do not match up between the two plots, so the comparison may be a bit off.) As seen above, there does not seem to be a major difference between the polling, so for the sake of simplicity, I will ignore political party as an additional variable. Although I previously observed greater inaccuracy for Republican candidate predictions, it seems that those differences are smoothed out on average.
 
 ### Prediction
 

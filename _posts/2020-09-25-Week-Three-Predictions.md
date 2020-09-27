@@ -30,7 +30,9 @@ Unfortunately, in the dataset that I have for 2020 election polls, the pollster 
 Ultimately, national-level polls are only interesting in the sense that they provide an approximate indication of the level of support that each of the two major-party candidates have. Due to the setup of the Electoral College, these **national-level polls are generally not informative about whether a candidate will capture enough electoral votes for an actual victory**; an examination of state-by-state predictions is required. So, the next question is: are state-level polls accurate?
 
 As it turns out, the state-level polls, on average, have been quite accurate. From 1972 to 2016, across all 50 states (and the District of Columbia), **a given poll's predicted outcome has been the most accurate indicator of the state-level election outcome.** With just this one variable, the regression equation was 
+
 `% of State-Level Popular Vote = 5.6892 + 0.9594(Poll Prediction of Popular Vote)`
+
 This came with a relatively high R-squared value of `0.7457` and a very miniscule p-value. There is little effect on this equation when adding a second variable, the state, which suggests that polls, on average, do not consistently over- or under-estimate the amount of support in any of the 50 states. The third variable I tested was the proximity of each poll to the election (as measured in either days or weeks); while this proximity variable had a statistically significant coefficient, the coefficient was very small.
 
 Below is a scatterplot with points representing each individual poll in my dataset; as previously stated, these polls range in date between 1972 and 2016. The blue points are poll data for the Democratic candidate, and the red points are for the Republican candidate, while the solid black line is the one-variable regression equation listed above. The dashed black line is the 45-degree line, serving as a reference point for the "perfect" poll, where the poll prediction is exactly equal to the election result.
@@ -47,9 +49,13 @@ As shown above, the overwhelming trend is that the majority of polls tend to be 
 Before coming to the prediction, I wanted to explore one other consideration: the idea that polls converge closer to the actual outcome as the election date approaches. I considered this when selecting variables, but I want to revisit this in a different way because it is a theme present in the literature. As outlined by [Gelman and King (1993)](https://www.cambridge.org/core/journals/british-journal-of-political-science/article/why-are-american-presidential-election-campaign-polls-so-variable-when-votes-are-so-predictable/7936B534442ECC90D60934A450721E8F), voters may inherently have "enlightened preferences" that they eventually translate into a candidate choice. However, the voter does not have a choice until they have gathered sufficient information through the media or the campaigns. Since many voters wait until the last minute to gather most of the information, it follows that polls conducted closest to Election Day are most accurate.
 
 In conducting this analysis, I split the dataset into two halves, based on the median "recent-ness" of the polls (45 days was the cut-off). I found that the group of polls that were conducted farther away from the election date (more than 45 days before Election Day) had a R-squared value of `0.6473`, with an equation of: 
-`% of State Level Popular Vote = 8.3623 + 0.9059(Poll Prediction of Popular Vote`.
+
+`% of State Level Popular Vote = 8.3623 + 0.9059(Poll Prediction of Popular Vote`
+
 However, the group of polls conducted close to Election Day (within 45 days) had a much higher regression R-squared value of `0.8346`, and a very good equation:
+
 `% of State Level Popular Vote = 3.2889 + 1.0060(Poll Prediction of Popular Vote)`
+
 This second equation is particularly notable because the slope is very close to 1. 1 is the slope of the 45-degree line in the two plots above, which would mean that apart from the `3.2889` intercept, the polls would (almost) perfectly predict the outcome!
 
 ![Poll Predicted Election Results for 2020](https://yanxifang.github.io/Gov-1347/images/poll_predicted_winner.png)

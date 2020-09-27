@@ -35,6 +35,8 @@ Below is a scatterplot with points representing each individual poll in my datas
 
 ![State Poll Predictions versus Received Vote Share, 1972-2016](https://yanxifang.github.io/Gov-1347/images/state_polls_by_party.png)
 
+As shown above, 
+
 ![Democratic versus Republican State Polls, 1972-2016](https://yanxifang.github.io/Gov-1347/images/state_poll_twoparty.png)
 
 ### Prediction

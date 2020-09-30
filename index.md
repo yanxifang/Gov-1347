@@ -15,3 +15,6 @@ Friday, September 18, 2020: I am using GDP and unemployment data as indicators o
 
 ### [Week 3: Polling Data](https://yanxifang.github.io/Gov-1347/2020/09/25/Week-Three-Predictions.html)
 Friday, September 25, 2020: This week, I analyze the validity of using polling data as a preidctor for presidential election outcomes.
+
+### [Week 4: Incumbency](https://yanxifang.github.io/Gov-1347/2020/10/02/Week-Four-Predictions.html)
+Friday, October 2, 2020: I evaluate the impacts of incumbency and changes in federal funding on electoral support for presidential candidates.

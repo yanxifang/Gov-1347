@@ -15,6 +15,7 @@ This week, I will analyze the concept of incumbency, with a specific focus on wh
 ### Federal Funding: Changes at the Local Level
 
 ### Does Incumbency Matter in 2020?
+2020 is a unique year: the COVID-19 pandemic has caused significant disruption to the economy and 
 
 ### Model Prediction
-Since much of the discussion about incumbency has centered around the concept of retrospective accountability, and since federal funding is tied to voters' perception of the economy (at least at the local level), I think it's prudent to revisit my [earlier economic models](yanxifang.github.io/Gov-1347/2020/09/18/Week-Two-Predictions.html) and try to incorporate incumbency as an additional variable.
+Since much of the discussion about incumbency has centered around the concept of retrospective accountability, and since federal funding is tied to voters' perception of the economy (at least at the local level), I think it's prudent to revisit my [earlier economic models](https://yanxifang.github.io/Gov-1347/2020/09/18/Week-Two-Predictions.html) and try to incorporate incumbency as an additional variable.

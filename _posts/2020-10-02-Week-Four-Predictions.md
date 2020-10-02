@@ -8,7 +8,8 @@ date: 2020-10-02
 
 This week, I will analyze the concept of incumbency, with a specific focus on whether changes in federal funding can affect electoral support for either the incumbent or challenger (or both) in a presidential election.
 
-### Assumptions
+### Assumptions & Theoretical Background
+The impact of government funding -- and specifically, federal-level funding -- has long been considered influential in American politics. The term "pork barrel" has been used to describe Congressionally-allocated funding targeted at a member's district or some other special interest, as described in [this article](https://www.brookings.edu/articles/the-new-pork-barrel-whats-wrong-with-regulation-today-and-what-reformers-need-to-do-to-get-it-right/) from the Brookings Institution.
 
 ### Federal Funding: Changes at the State Level
 

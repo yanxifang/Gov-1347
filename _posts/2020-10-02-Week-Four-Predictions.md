@@ -9,13 +9,13 @@ date: 2020-10-02
 This week, I will analyze the concept of incumbency, with a specific focus on whether changes in federal funding can affect electoral support for either the incumbent or challenger (or both) in a presidential election.
 
 ### Assumptions & Theoretical Background
-The impact of government funding -- and specifically, federal-level funding -- has long been considered influential in American politics. The term "pork barrel" has been used to describe Congressionally-allocated funding targeted at a member's district or some other special interest, as described in [this article](https://www.brookings.edu/articles/the-new-pork-barrel-whats-wrong-with-regulation-today-and-what-reformers-need-to-do-to-get-it-right/) from the Brookings Institution.
+The impact of government funding -- and specifically, federal-level funding -- has long been considered influential in American politics. The term "pork barrel" has been used to describe Congressionally-allocated funding targeted at a member's district or some other special interest, as described in [this article](https://www.brookings.edu/articles/the-new-pork-barrel-whats-wrong-with-regulation-today-and-what-reformers-need-to-do-to-get-it-right/) from the Brookings Institution. However, as discussed by [Kriner and Reeves (2012)](https://www.cambridge.org/core/journals/american-political-science-review/article/influence-of-federal-spending-on-presidential-elections/D7E15E901EA52BF92E5986626766224F), this "pork" can also have an impact on presidential elections, particularly in counties where the Congressional members are from the same party as an incumbent president. This analysis suggests that there is some basis to the economy-based fundamentals approach, since the purpose of federal funding to boost the local economy.
 
 ### Federal Funding: Changes at the State Level
 
 ### Federal Funding: Changes at the Local Level
 
-### Does Incumbency Matter in 2020?
+### Does Incumbency Matter in 2020? (& The Time-for-Change Model)
 **2020 is a unique year**: the COVID-19 pandemic has caused both significant disruption to the economy *and* unprecedented amounts of federal aid being disbursed. The first situation seems to indicate declining support for the incumbent, Trump, while the second seems to indicate stronger support. Do these two effects cancel each other out, or does one of the two have a greater impact on the electorate's support?
 
 ### Model Prediction

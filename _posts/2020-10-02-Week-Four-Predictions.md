@@ -18,7 +18,9 @@ However, the COVID-19 pandemic has significantly changed the scope of federal fu
 
 Since there isn't enough data to answer that question, perhaps there's an alternate approach. For instance, Alan Abramowitz's [time-for-change model](https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/will-time-for-change-mean-time-for-trump/6DC38DD5F6346385A7C72C15EA08CA09) suggests that it is difficult for the incumbent party to win a third consecutive term in the White House, as the Democratic Party would have done had Hilary Clinton won the 2016 election. Abramowitz's model is based on just three variables: Q2 GDP growth, Gallup job approval, and an incumbent term: whether the incumbent party has held the presidency for just one term, or more than one term. Since this model was unique in correctly predicting a Trump victory in 2016, it may be informative for 2020 as well.
 
-
+The model, as described by [PollyVote](https://pollyvote.com/en/components/models/retrospective/fundamentals-plus-models/time-for-change-model/), is as follows:
+``(2-Party Vote Share) = Constant + 0.108(Net Approval Rating) + 0.543(Q2 GDP Growth) + 4.313(First-Term Incumbent)``
+where the value is 1 if there is a first-term incumbent (e.g. in 2020), and 0 if there is not a first-term incumbent in the race (e.g. in 2016).
 
 ### Model Prediction
 Since much of the discussion about incumbency has centered around the concept of retrospective accountability, and since federal funding is tied to voters' perception of the economy (at least at the local level), I think it's prudent to revisit my [earlier economic models](https://yanxifang.github.io/Gov-1347/2020/09/18/Week-Two-Predictions.html) and try to incorporate incumbency as an additional variable.

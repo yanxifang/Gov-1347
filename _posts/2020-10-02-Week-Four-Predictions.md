@@ -42,7 +42,9 @@ Unfortunately, using this model may not be optimal for 2020, again due to the CO
 
 Is Abramowitz's original model (the one used to predict 2016) any better, since it uses a substantially smaller coefficient for Q2 GDP growth? Using the same `-31.4%` value, and the same 100% approval, Trump is predicted to have `47.260 + 0.108(100) + 0.543(-31.4) + 4.313(1) = 45.3228` percent of the popular vote. But, when reducing the approval rating to a more realistic 50%, Trump is expected to receive `39.9228` percent. While a 60-40 split in the 2-party popular vote would likely resemble a landslide (see my [Week 1 blog post](https://yanxifang.github.io/Gov-1347/2020/09/11/Week-One-Predictions.html) for a discussion of the 1972 and 1984 elections), this is actually not a bad prediction because Abramowitz could possibly add a partisanship variable, as he did for 2012; this would likely be in Trump's favor because going beyond 60-40 would be unprecedented.
 
+**As seen above, the time-for-change model is not particularly predictive for 2020. However, it suggests that there is actually an incumbency *dis*advantage for Trump.** Under this model, Trump will bear the weight of the economic downturn caused by COVID-19 related lockdowns. Furthermore, although Trump will benefit from being a first-term incumbent, that benefit is dwarfed by the negative effect of the economy. Nonetheless, it is important to note that the model does not take into account any "pork-barrel" (or general) spending; as discussed earlier, federal spending is likely to be a factor in the 2020 presidential election because it has directly impacted many citizens (i.e. through stimulus checks).
+
 ### Model Prediction
 Since incumbency is very much a "fundamentals" approach to predicting elections, in the sense that it is centered around the concept of retrospective accountability, I think it's prudent to revisit my [earlier economic models](https://yanxifang.github.io/Gov-1347/2020/09/18/Week-Two-Predictions.html) and compare them to the time-for-change model.
 
-
+Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

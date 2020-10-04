@@ -32,11 +32,17 @@ When incorporating the 2016 election, the new regression equation is:
 
 ``(2-Party Vote Share) = Constant + 0.103(Net Approval Rating) + 1.764(Q2 GDP Growth) + 2.877(First-Term Incumbent)``
 
-where the constant is now slightly lower at 47.176. The adjusted R-squared value for this model is `0.685`, which is good but not ideal. Furthermore, neither the GDP growth nor incumbent coefficients are statistically significant at the 95% confidence level: they have p-values of `0.05683` and `0.09544`, respectively. The relationships between each of the independent variables (net approval rating, Q2 GDP growth, and first-term incumbency) are visualized below:
+where the constant is now slightly lower at 47.176. The adjusted R-squared value for this model is `0.685`, which is good but not ideal. Furthermore, neither the GDP growth nor incumbent coefficients are statistically significant at the 95% confidence level: they have p-values of `0.05683` and `0.09544`, respectively. Here, the high p-values of the coefficients actually don't mean much: the sample size is small (only 18 elections from 1948 to 2016, inclusive), so the possibility of making an inference error is somewhat high. 
+
+The relationships between each of the independent variables (net approval rating, Q2 GDP growth, and first-term incumbency) are visualized below:
 
 ![Time-for-Change Visualization](https://yanxifang.github.io/Gov-1347/images/timeforchange.png)
 
+Unfortunately, using this model may not be optimal for 2020, again due to the COVID-19 pandemic. As seen above, the coefficient for second-quarter GDP growth is quite high at `1.764`; the U.S. Bureau of Economic Analysis has [reported](https://www.bea.gov/news/2020/gross-domestic-product-state-2nd-quarter-2020) that the 2020 second-quarter GDP growth is `-31.4%`. This value, by itself, has an impact of `-55.39`; even with an unrealistically high 100% approval rate, the model would predict that Trump has a 2-party vote share of: `47.176 + 0.103(100) + 1.764(-31.4) + 2.877(1) = 4.9634` percent, which is far too low for obvious reasons.
 
+Is Abramowitz's original model (the one used to predict 2016) any better, since it uses a substantially smaller coefficient for Q2 GDP growth? Using the same `-31.4%` value, and the same 100% approval, Trump is predicted to have `47.260 + 0.108(100) + 0.543(-31.4) + 4.313(1) = 45.3228` percent of the popular vote. But, when reducing the approval rating to a more realistic 50%, Trump is expected to receive `39.9228` percent. While a 60-40 split in the 2-party popular vote would likely resemble a landslide (see my [Week 1 blog post](https://yanxifang.github.io/Gov-1347/2020/09/11/Week-One-Predictions.html) for a discussion of the 1972 and 1984 elections), this is actually not a bad prediction because Abramowitz could possibly add a partisanship variable, as he did for 2012; this would likely be in Trump's favor because going beyond 60-40 would be unprecedented.
 
 ### Model Prediction
-Since incumbency is very much a "fundamentals" approach to predicting elections, in the sense that it is centered around the concept of retrospective accountability, I think it's prudent to revisit my [earlier economic models](https://yanxifang.github.io/Gov-1347/2020/09/18/Week-Two-Predictions.html) and compare the role of the time-for-change model.
+Since incumbency is very much a "fundamentals" approach to predicting elections, in the sense that it is centered around the concept of retrospective accountability, I think it's prudent to revisit my [earlier economic models](https://yanxifang.github.io/Gov-1347/2020/09/18/Week-Two-Predictions.html) and compare them to the time-for-change model.
+
+

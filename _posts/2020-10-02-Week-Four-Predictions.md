@@ -44,7 +44,9 @@ Is Abramowitz's original model (the one used to predict 2016) any better, since 
 
 **As seen above, the time-for-change model is not particularly predictive for 2020. However, it suggests that there is actually an incumbency *dis*advantage for Trump.** Under this model, Trump will bear the weight of the economic downturn caused by COVID-19 related lockdowns. Furthermore, although Trump will benefit from being a first-term incumbent, that benefit is dwarfed by the negative effect of the economy. Nonetheless, it is important to note that the model does not take into account any "pork-barrel" (or general) spending; as discussed earlier, federal spending is likely to be a factor in the 2020 presidential election because it has directly impacted many citizens (i.e. through stimulus checks).
 
-### Model Prediction
-Since incumbency is very much a "fundamentals" approach to predicting elections, in the sense that it is centered around the concept of retrospective accountability, I think it's prudent to revisit my [earlier economic models](https://yanxifang.github.io/Gov-1347/2020/09/18/Week-Two-Predictions.html) and compare them to the time-for-change model.
+### Additional Thoughts / Conclusion
+Since incumbency is very much a "fundamentals" approach to predicting elections, in the sense that it is centered around the concept of retrospective accountability, I think it's prudent to revisit my [earlier economic models](https://yanxifang.github.io/Gov-1347/2020/09/18/Week-Two-Predictions.html) and compare them to the time-for-change model. In looking back at my Week 2 models, it has recently come to my attention that (a) the local-level model should be based on *changes* in unemployment, not the baseline level of unemployment, and (b) there should be a "state" variable to account for differences between individual states. I made attempts to correct these omissions for this week; however, even after accounting for state, changes in state-level unemployment, and changes in disposable income between January and May (May because this is the latest month in 2020 for which I have economic data) of each election year, the models are still terrible with very low R-squared values (`<0.10`). 
+
+
 
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

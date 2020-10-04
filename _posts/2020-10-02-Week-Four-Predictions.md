@@ -20,14 +20,23 @@ However, the COVID-19 pandemic has significantly changed the scope of federal fu
 
 ### Quantifying the Impact of Incumbency: The Time-for-Change Model
 
-
 Since there isn't enough data to answer that question, perhaps there's an alternate approach. For instance, Alan Abramowitz's [time-for-change model](https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/will-time-for-change-mean-time-for-trump/6DC38DD5F6346385A7C72C15EA08CA09) suggests that it is difficult for the incumbent party to win a third consecutive term in the White House, as the Democratic Party would have done had Hilary Clinton won the 2016 election. Abramowitz's model is based on just three variables: Q2 GDP growth, Gallup job approval, and an incumbent term: whether the incumbent party has held the presidency for just one term, or more than one term. Since this model was unique in correctly predicting a Trump victory in 2016, it may be informative for 2020 as well.
 
 The model, as described by [PollyVote](https://pollyvote.com/en/components/models/retrospective/fundamentals-plus-models/time-for-change-model/), is as follows:
 
 ``(2-Party Vote Share) = Constant + 0.108(Net Approval Rating) + 0.543(Q2 GDP Growth) + 4.313(First-Term Incumbent)``
 
-where the value is 1 if there is a first-term incumbent (e.g. in 2020), and 0 if there is not a first-term incumbent in the race (e.g. in 2016).
+where the constant is 47.260, and the incumbent value is 1 if there is a first-term incumbent (e.g. in 2020), and 0 if there is not a first-term incumbent in the race (e.g. in 2016). There are two things to note: first, this model was used to predict the 2016 election, and thus does not include the results of that election, and second, Abramowitz has added a "polarization" variable starting in 2012. For purposes of simplicity (since polarization is hard to quantify), I will be ignoring that variable for my model.
+
+When incorporating the 2016 election, the new regression equation is:
+
+``(2-Party Vote Share) = Constant + 0.103(Net Approval Rating) + 1.764(Q2 GDP Growth) + 2.877(First-Term Incumbent)``
+
+where the constant is now slightly lower at 47.176. The adjusted R-squared value for this model is `0.685`, which is good but not ideal. Furthermore, neither the GDP growth nor incumbent coefficients are statistically significant at the 95% confidence level: they have p-values of `0.05683` and `0.09544`, respectively. The relationships between each of the independent variables (net approval rating, Q2 GDP growth, and first-term incumbency) are visualized below:
+
+![Time-for-Change Visualization](https://yanxifang.github.io/Gov-1347/images/timeforchange.png)
+
+
 
 ### Model Prediction
 Since incumbency is very much a "fundamentals" approach to predicting elections, in the sense that it is centered around the concept of retrospective accountability, I think it's prudent to revisit my [earlier economic models](https://yanxifang.github.io/Gov-1347/2020/09/18/Week-Two-Predictions.html) and compare the role of the time-for-change model.

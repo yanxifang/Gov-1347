@@ -18,3 +18,6 @@ Friday, September 25, 2020: This week, I analyze the validity of using polling d
 
 ### [Week 4: Incumbency](https://yanxifang.github.io/Gov-1347/2020/10/02/Week-Four-Predictions.html)
 Friday, October 2, 2020: I evaluate the impacts of incumbency and changes in federal funding on electoral support for presidential candidates.
+
+### [Week 5: Advertising](https://yanxifang.github.io/Gov-1347/2020/10/09/Week-Five-Predictions.html)
+Friday, October 9, 2020: I am using advertising data to evaluate the impacts, if any, that spending on advertising has on election outcomes.

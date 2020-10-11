@@ -50,9 +50,9 @@ My previous model was outlined in [Week 3](https://yanxifang.github.io/Gov-1347/
 
 | Weight | Variable | Coefficient | Notes |
 | --- | --- | --- | --- | --- |
-| 0.5632 | Constant | 3.2889 |  | *Recent* Polls (<45 Days); R-squared 0.8346 |
+| 0.5632 | Constant | 3.2889 | *Recent* Polls (<45 Days); R-squared 0.8346 |
 |  | Poll Prediction of PV | 1.0060 | |
-| 0.4368 | Constant | 8.3623 |  | *Older* Polls (>45 Days); R-squared 0.6473 |
+| 0.4368 | Constant | 8.3623 | *Older* Polls (>45 Days); R-squared 0.6473 |
 |  | Poll Prediction of PV | 0.9059 | |
 
 This model forecasted a Biden victory, with at least `301 EV` for Biden, at least `154 EV` for Trump, and `83 EV` uncertain.

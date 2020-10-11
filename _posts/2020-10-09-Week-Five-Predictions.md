@@ -52,13 +52,21 @@ My previous model was outlined in [Week 3](https://yanxifang.github.io/Gov-1347/
 
 | Weight | Variable | Coefficient | Notes |
 | --- | --- | --- | --- | --- |
-| 0.5632 | Constant | 3.2889 | *Recent* Polls (<45 Days); R-squared 0.8346 |
-|  | Poll Prediction of PV | 1.0060 | |
-| 0.4368 | Constant | 8.3623 | *Older* Polls (>45 Days); R-squared 0.6473 |
-|  | Poll Prediction of PV | 0.9059 | |
+| 0.5632 | Constant | 3.2889 | *Recent* Polls (<45 Days*); R-squared 0.8346 |
+|  | Poll Prediction of PV | 1.0060 | In practice, polls that are more recent than the median age of all polls |
+| 0.4368 | Constant | 8.3623 | *Older* Polls (>45 Days*); R-squared 0.6473 |
+|  | Poll Prediction of PV | 0.9059 | In practice, polls that are less recent than the median age of all polls |
 
-This model forecasted a Biden victory, with at least `301 EV` for Biden, at least `154 EV` for Trump, and `83 EV` uncertain.
+During Week 3, this model forecasted a Biden victory, with at least `301 EV` for Biden, at least `154 EV` for Trump, and `83 EV` uncertain.
 
-I will now be plugging in the newer poll data to update my prediction. In the new 2020 dataset (`poll_2020.csv`), the median number of days to the 2020 election is 134 for the Democratic Party and 252 for the Republican Party, a discrepancy that is understandable given that Trump is an incumbent running for re-election, while there was also much uncertainty among Democrats about the ultimate identity of the nominee.
+I will now be plugging in the newer poll data to update my prediction. In the new 2020 dataset (`poll_2020.csv`), the median number of days to the 2020 election is 134 for the Democratic Party and 252 for the Republican Party, a discrepancy that is understandable given that Trump is an incumbent running for re-election, while there was also much uncertainty among Democrats about the ultimate identity of the nominee. I then performed the same calculations as I did in Week 3, using the same weighted model. My new conclusion is as follows:
+
+| Candidate | Electoral Votes |
+| --- | --- |
+| Biden (D) | 315 |
+| Trump (R) | 153 |
+| Unalloted in Model | 70 |
+
+This is not surprising given the ongoing nature of the COVID-19 pandemic and the related economic downturn. 
 
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

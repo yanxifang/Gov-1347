@@ -38,10 +38,10 @@ For obvious reasons, there is only limited data available for the 2020 election.
 ## Ongoing Model & Revised Prediction for 2020
 My previous model was outlined in [Week 3](https://yanxifang.github.io/Gov-1347/2020/09/25/Week-Three-Predictions.html), and was solely based on polling:
 
-| Variable | Coefficient | P-Value |
-| --- | --- | --- |
-| Something | Something | Something |
-| Something | Something | Something |
+| Weight | Variable | Coefficient | P-Value | Notes |
+| --- | --- | --- | --- | --- |
+| Something | *Constant* | Something | Something | Something |
+| Something | *Poll* | Something | Something | Something |
 
 
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

@@ -17,6 +17,9 @@ When including advertising as a variable in my model, **a key assumption is that
 Something interesting to analyze is the size of advertising campaigns, as measured by cost. If advertising is as important as it is often considered to be, then "desperate" candidates - i.e. those from the party that is not currently in office - should be spending more on advertisements than their opponent, in the hope that the advertisements will convince Data is only available for the 2000, 2004, 2008, and 2012 elections, but since advertising is done at the local level, there are many rows of data to consider. Below, I have created histograms showing the number of advertising campaigns by size (dollar amount) and party.
 
 ![2008 and 2012 Ad Campaign Sizes](https://yanxifang.github.io/Gov-1347/images/ad_campaign_size_2008_2012.png)
+
+It's interesting to note that there weren't *any* advertising campaigns costing more than $1 million in either 2000 or 2004, as shown below.
+
 ![2000 and 2004 Ad Campaign Sizes](https://yanxifang.github.io/Gov-1347/images/ad_campaign_size_2000_2004.png)
 
 ## Partial 2020 Ads Data

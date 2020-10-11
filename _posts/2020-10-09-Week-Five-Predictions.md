@@ -40,10 +40,10 @@ My previous model was outlined in [Week 3](https://yanxifang.github.io/Gov-1347/
 
 | Weight | Variable | Coefficient | R-Squared| Notes |
 | --- | --- | --- | --- | --- |
-| 0.5632 | Constant *(Recent Polls)* | 3.2889 | Something | |
-|  | Coefficient *(Recent Polls)* | 1.0060 | 0.8346 | |
-| 0.4368 | Constant *(Older Polls)* | 8.3623 | Something | |
-|  | Coefficient *(Older Polls)* | 0.9059 | 0.6473 | |
+| 0.5632 | Constant | 3.2889 |  | *Recent* Polls (<45 Days) |
+|  | Poll Prediction of PV | 1.0060 | 0.8346 | |
+| 0.4368 | Constant | 8.3623 |  | *Older* Polls (>45 Days) |
+|  | Poll Prediction of PV | 0.9059 | 0.6473 | |
 
 
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

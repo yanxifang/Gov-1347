@@ -37,7 +37,11 @@ But first, past data is required to see if there is any relationship between mor
 
 ![2004 Ad Spending vs PV2P](https://yanxifang.github.io/Gov-1347/images/ads_pv2p_2004.png)
 
+a
+
 ![2008 Ad Spending vs PV2P](https://yanxifang.github.io/Gov-1347/images/ads_pv2p_2008.png)
+
+a
 
 ![2012 Ad Spending vs PV2P](https://yanxifang.github.io/Gov-1347/images/ads_pv2p_2012.png)
 

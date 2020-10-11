@@ -40,8 +40,8 @@ My previous model was outlined in [Week 3](https://yanxifang.github.io/Gov-1347/
 
 | Weight | Variable | Coefficient | P-Value | Notes |
 | --- | --- | --- | --- | --- |
-| Something | *Constant* | Something | Something | Something |
-| Something | *Poll* | Something | Something | Something |
+| Something | Constant (Recent Polls) | Something | Something | Something |
+| Something | Coefficient (Recent Polls) | Something | Something | Something |
 
 
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

@@ -30,24 +30,22 @@ Below are the corresponding histograms for the 2000 and 2004 election cycles. It
 
 **As a summary, these two visualizations show that ads do matter - or at the very least, campaigns believe that they matter.** However, advertisements on television and radio are not the only method of persuasive messaging employed by campaigns, particularly in today's age of social media (which is an alternative channel for messaging) and online streaming (which implies that TV/radio ads now fewer people and a narrower demographic).
 
-## Partial 2020 Ads Data
+## Partial 2020 Ads Data (?)
 For obvious reasons (e.g. campaign strategy secrets), there is only limited data available for the 2020 election. Rather than tallying advertisement spending by dollar amount per campaign, the 2020 data (`ads_2020.csv`) measures spending by the number of airings for each candidate, broken up into two time periods: April 9 through September 27, and September 5 through September 27. While limited in details, this data is good enough in terms of being up-to-date: as discussed in my previous posts, a prediction should be made in advance, so if ad spending is used in a prediction model, then the information about October spending shouldn't need to be available.
 
 But first, past data is required to see if there is any relationship between more advertising and receiving a higher vote share. Below are the plots for the 2004, 2008, and 2012 elections, broken down by party and two different types of spending. These two types of spending are based on the Gerber findings that advertisement impacts quickly dissipate. Specifically, I limited the available data to the data available for 2020, and created the same two time periods to make it easier for comparison later on. The "adjusted" spending is calculated by taking the average of two amounts: the total amount spent during the longer period (i.e. April 9 to September 27), and the total amount spent during the shorter, closer-to-the-election period (i.e. September 5 to 27). The "late" spending is just the total spending in the second period.
 
 ![2004 Ad Spending vs PV2P](https://yanxifang.github.io/Gov-1347/images/ads_pv2p_2004.png)
 
-a
 
 ![2008 Ad Spending vs PV2P](https://yanxifang.github.io/Gov-1347/images/ads_pv2p_2008.png)
 
-a
 
 ![2012 Ad Spending vs PV2P](https://yanxifang.github.io/Gov-1347/images/ads_pv2p_2012.png)
 
-As seen above, it is questionable whether there is actually any significant impact from advertising *alone*. In fact, in some of the graphs above, increased spending on advertisements was actually correlated with a decrease in the percentage of the two-party popular vote received.  
+As seen above, it is questionable whether there is actually any significant impact from advertising *alone*. In fact, in some of the graphs above, increased spending on advertisements was actually correlated with a decrease in the percentage of the two-party popular vote received. Nonetheless, from a visual inspection, the 2008 graphs seem to provide the most evidence for the impact of advertising - this does make sense, because neither party in 2008 had an incumbent running for re-election, meaning that there was more pressure to highlight candidates' platforms, experience, record, etc.
 
-Now, it's time to evaluate 2020 data. To get around the limited data, I will make the assumption that each ad airing costs the same. This is not entirely unrealistic because both campaigns presumably buy in bulk, and since the costs are broken down by state, airing an ad in the same TV markets should not result in significant price differences. 
+The ambiguous direction of the impact of advertising spending is compounded by the small sample size: only 4 election years' worth of data is available. This makes it quite unlikely that the resulting model will be accurate (and in fact, the resulting model may even worsen my existing model), so I won't be moving forward with ad spending as a variable. However, I now have new data available on 2020 polls, so I will be updating my model with that information instead.
 
 ## Ongoing Model & Revised Prediction for 2020
 My previous model was outlined in [Week 3](https://yanxifang.github.io/Gov-1347/2020/09/25/Week-Three-Predictions.html), and was solely based on state-level polling:

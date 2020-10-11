@@ -31,7 +31,9 @@ Below are the corresponding histograms for the 2000 and 2004 election cycles. It
 **As a summary, these two visualizations show that ads do matter - or at the very least, campaigns believe that they matter.** However, advertisements on television and radio are not the only method of persuasive messaging employed by campaigns, particularly in today's age of social media (which is an alternative channel for messaging) and online streaming (which implies that TV/radio ads now fewer people and a narrower demographic).
 
 ## Partial 2020 Ads Data
-For obvious reasons, there is only limited data available for the 2020 election. Rather than tallying advertisement spending by dollar amount per campaign, the 2020 data (`ads_2020.csv`) 
+For obvious reasons, there is only limited data available for the 2020 election. Rather than tallying advertisement spending by dollar amount per campaign, the 2020 data (`ads_2020.csv`) measures spending by the number of airings for each candidate, broken up into two time periods: April 9 through September 27, and September 5 through September 27. While limited in details, this data is good enough in terms of being up-to-date: as discussed in my previous posts, a prediction should be made in advance, so if ad spending is used in a prediction model, then the information about October spending shouldn't need to be available.
+
+
 
 ## Ongoing Model & Revised Prediction for 2020
 

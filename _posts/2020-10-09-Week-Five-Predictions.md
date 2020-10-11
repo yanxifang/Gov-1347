@@ -59,4 +59,6 @@ My previous model was outlined in [Week 3](https://yanxifang.github.io/Gov-1347/
 
 This model forecasted a Biden victory, with at least `301 EV` for Biden, at least `154 EV` for Trump, and `83 EV` uncertain.
 
+I will now be plugging in the newer poll data to update my prediction. In the new 2020 dataset (`poll_2020.csv`), the median number of days to the 2020 election is 134 for the Democratic Party and 252 for the Republican Party, a discrepancy that is understandable given that Trump is an incumbent running for re-election, while there was also much uncertainty among Democrats about the ultimate identity of the nominee.
+
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

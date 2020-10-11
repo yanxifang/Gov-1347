@@ -13,6 +13,12 @@ Advertising has sometimes been cited as important for a candidate's success in U
 
 When including advertising as a variable in my model, **a key assumption is that there are differences between campaigns.** This is not always the case: for example, fundamentals-only models are based on the assumption that only the existence - not the activities - of a campaign matters, since campaign efforts on both sides will balance out over the course of the months leading up to the election. 
 
+## Visualizing the Data: Size of Advertising Campaigns
+Something interesting to analyze is the size of advertising campaigns, as measured by cost. If advertising is as important as it is often considered to be, then "desperate" candidates - i.e. those from the party that is not currently in office - should be spending more on advertisements than their opponent, in the hope that the advertisements will convince Data is only available for the 2000, 2004, 2008, and 2012 elections, but since advertising is done at the local level, there are many rows of data to consider. Below, I have created histograms showing the number of advertising campaigns by size (dollar amount) and party.
+
+![2008 and 2012 Ad Campaign Sizes](https://yanxifang.github.io/Gov-1347/ad_campaign_size_2008_2012.png)
+![2000 and 2004 Ad Campaign Sizes](https://yanxifang.github.io/Gov-1347/ad_campaign_size_2000_2004.png)
+
 ## Partial 2020 Ads Data
 
 ## Role of Social Media

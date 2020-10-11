@@ -36,7 +36,7 @@ For obvious reasons, there is only limited data available for the 2020 election.
 
 
 ## Ongoing Model & Revised Prediction for 2020
-My previous model was outlined in [Week 3](https://yanxifang.github.io/Gov-1347/2020/09/25/Week-Three-Predictions.html), and was solely based on polling:
+My previous model was outlined in [Week 3](https://yanxifang.github.io/Gov-1347/2020/09/25/Week-Three-Predictions.html), and was solely based on state-level polling:
 
 | Weight | Variable | Coefficient | R-Squared| Notes |
 | --- | --- | --- | --- | --- |
@@ -45,5 +45,6 @@ My previous model was outlined in [Week 3](https://yanxifang.github.io/Gov-1347/
 | 0.4368 | Constant | 8.3623 |  | *Older* Polls (>45 Days) |
 |  | Poll Prediction of PV | 0.9059 | 0.6473 | |
 
+This model forecasted a Biden victory, with at least `301 EV` for Biden, at least `154 EV` for Trump, and `83 EV` uncertain.
 
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

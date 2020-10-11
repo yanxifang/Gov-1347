@@ -41,7 +41,7 @@ But first, past data is required to see if there is any relationship between mor
 
 ![2012 Ad Spending vs PV2P](https://yanxifang.github.io/Gov-1347/images/ads_pv2p_2012.png)
 
-As seen above, it is questionable whether there is actually any significant impact from advertising *alone*. 
+As seen above, it is questionable whether there is actually any significant impact from advertising *alone*. In fact, in some of the graphs above, increased spending on advertisements was actually correlated with a decrease in the percentage of the two-party popular vote received.  
 
 Now, it's time to evaluate 2020 data. To get around the limited data, I will make the assumption that each ad airing costs the same. This is not entirely unrealistic because both campaigns presumably buy in bulk, and since the costs are broken down by state, airing an ad in the same TV markets should not result in significant price differences. 
 

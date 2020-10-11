@@ -33,17 +33,25 @@ Below are the corresponding histograms for the 2000 and 2004 election cycles. It
 ## Partial 2020 Ads Data
 For obvious reasons, there is only limited data available for the 2020 election. Rather than tallying advertisement spending by dollar amount per campaign, the 2020 data (`ads_2020.csv`) measures spending by the number of airings for each candidate, broken up into two time periods: April 9 through September 27, and September 5 through September 27. While limited in details, this data is good enough in terms of being up-to-date: as discussed in my previous posts, a prediction should be made in advance, so if ad spending is used in a prediction model, then the information about October spending shouldn't need to be available.
 
+First, past data is required to see if there is any relationship between more advertising and receiving a higher vote share. Below are the plots for the 2004, 2008, and 2012 elections, broken down by party and two different types of spending. These two types of spending are based on the Gerber findings that advertisement impacts quickly dissipate. Specifically, I limited the available data to the data available for 2020, and created the same two time periods to make it easier for comparison later on. The "adjusted" spending is calculated by taking the average of two amounts: the total amount spent during the longer period (i.e. April 9 to September 27), and the total amount spent during the shorter, closer-to-the-election period (i.e. September 5 to 27). The "late" spending is just the total spending in the second period.
 
+![2004 Ad Spending vs PV2P](https://yanxifang.github.io/Gov-1347/images/ads_pv2p_2004.png)
+![2008 Ad Spending vs PV2P](https://yanxifang.github.io/Gov-1347/images/ads_pv2p_208.png)
+![2012 Ad Spending vs PV2P](https://yanxifang.github.io/Gov-1347/images/ads_pv2p_2012.png)
+
+As seen above, it is questionable whether there is actually any significant impact from advertising *alone*. 
+
+Now, it's time to evaluate 2020 data. To get around the limited data, I will make the assumption that each ad airing costs the same. This is not entirely unrealistic because both campaigns presumably buy in bulk, and since the costs are broken down by state, airing an ad in the same TV markets should not result in significant price differences. 
 
 ## Ongoing Model & Revised Prediction for 2020
 My previous model was outlined in [Week 3](https://yanxifang.github.io/Gov-1347/2020/09/25/Week-Three-Predictions.html), and was solely based on state-level polling:
 
-| Weight | Variable | Coefficient | R-Squared| Notes |
+| Weight | Variable | Coefficient | Notes |
 | --- | --- | --- | --- | --- |
-| 0.5632 | Constant | 3.2889 |  | *Recent* Polls (<45 Days) |
-|  | Poll Prediction of PV | 1.0060 | 0.8346 | |
-| 0.4368 | Constant | 8.3623 |  | *Older* Polls (>45 Days) |
-|  | Poll Prediction of PV | 0.9059 | 0.6473 | |
+| 0.5632 | Constant | 3.2889 |  | *Recent* Polls (<45 Days); R-squared 0.8346 |
+|  | Poll Prediction of PV | 1.0060 | |
+| 0.4368 | Constant | 8.3623 |  | *Older* Polls (>45 Days); R-squared 0.6473 |
+|  | Poll Prediction of PV | 0.9059 | |
 
 This model forecasted a Biden victory, with at least `301 EV` for Biden, at least `154 EV` for Trump, and `83 EV` uncertain.
 

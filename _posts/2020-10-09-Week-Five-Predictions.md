@@ -53,9 +53,9 @@ My previous model was outlined in [Week 3](https://yanxifang.github.io/Gov-1347/
 | Weight | Variable | Coefficient | Notes |
 | --- | --- | --- | --- | --- |
 | 0.5632 | Constant | 3.2889 | *Recent* Polls (<45 Days*); R-squared 0.8346 |
-|  | Poll Prediction of PV | 1.0060 | In practice, polls that are more recent than the median age of all polls |
+|  | Poll Prediction of PV | 1.0060 | (\*In practice, polls that are more recent than the median age of all polls) |
 | 0.4368 | Constant | 8.3623 | *Older* Polls (>45 Days*); R-squared 0.6473 |
-|  | Poll Prediction of PV | 0.9059 | In practice, polls that are less recent than the median age of all polls |
+|  | Poll Prediction of PV | 0.9059 | (\*In practice, polls that are less recent than the median age of all polls) |
 
 During Week 3, this model forecasted a Biden victory, with at least `301 EV` for Biden, at least `154 EV` for Trump, and `83 EV` uncertain.
 
@@ -67,6 +67,6 @@ I will now be plugging in the newer poll data to update my prediction. In the ne
 | Trump (R) | 153 |
 | Unalloted in Model | 70 |
 
-This is not surprising given the ongoing nature of the COVID-19 pandemic and the related economic downturn. 
+These changes (i.e. fewer EVs for Trump) are not surprising, given that the COVID-19 pandemic and the resulting economic downturn has continued into recent months, without any further stimulus funding from the federal government.
 
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

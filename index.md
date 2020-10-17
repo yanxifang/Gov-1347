@@ -21,3 +21,6 @@ Friday, October 2, 2020: I evaluate the impacts of incumbency and changes in fed
 
 ### [Week 5: Advertising](https://yanxifang.github.io/Gov-1347/2020/10/09/Week-Five-Predictions.html)
 Friday, October 9, 2020: I am using advertising data to evaluate the impacts, if any, that spending on advertising has on election outcomes.
+
+### [Week 6: Ground Game & Demographics](https://yanxifang.github.io/Gov-1347/2020/10/16/Week-Six-Predictions.html)
+Friday, October 16, 2020: I will analyze the impacts of ground-level campaigning on voter turnout and election outcomes. I will also evaluate the role of demographics - and demographic surges - in presidential election outcomes.

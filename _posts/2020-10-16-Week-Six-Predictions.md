@@ -15,9 +15,9 @@ The "ground game", or a candidate's campaign, is rooted in the idea that direct 
 **However, this explanation of voter behavior, like the explanation for the Air War, is structurally incompatible with the fundamentals model**, simply because it suggests that voters change their mind over time. With that being said, it would be interesting to compare the effectiveness of ground campaigning with the effectiveness of mass media advertising, particularly because both have similar goals and require substantial monetary resources.
 
 ## Comparing the Air War & The Ground Game
-[Last week](https://yanxifang.github.io/Gov-1347/2020/10/09/Week-Five-Predictions.html), I was unable to find a meaningful impact of advertising. As it turns out, I should have used the logarithm of the ad cost rather than the ad cost itself: advertising only impacts voters at the margin (i.e. a relatively small, but electorally significant, number of voters), so there are declining returns to scale. However, even when using the logarithm of the costs, I was still unable to find a linear regression that shows a clear correlation, either positive or negative, between advertisement spending and the two-party vote share.
+[Last week](https://yanxifang.github.io/Gov-1347/2020/10/09/Week-Five-Predictions.html), I was unable to find a meaningful impact of advertising. As it turns out, I should have used the logarithm of the ad cost rather than the ad cost itself: advertising only impacts voters at the margin (i.e. a relatively small, but electorally significant, number of voters), so there are declining returns to scale. However, even when using the logarithm of the costs, I was still unable to find a linear regression that shows a clear correlation, either positive or negative, between advertisement spending and the two-party vote share (note: this was for the 2012 campaign, the most recent year for which I have extensive data).
 
-Consequently, 
+Obviously, without a clear indication of whether advertising has any effect on vote share, it becomes difficult to compare advertising to the ground game. Nonetheless, it should be interesting to see whether there are any correlations between campaign activity and increased vote share.
 
 
 ## Demographics

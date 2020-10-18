@@ -6,7 +6,7 @@ date: "2020-10-16"
 ## Week 6 Analysis: The Ground Game, and Demographics
 *Friday, October 16, 2020*
 
-## The Ground Game
+## Intro: The Ground Game
 The "ground game", or a candidate's campaign, is rooted in the idea that direct contact with voters is likely to increase the chances of electoral success. This is manifested in two ways for U.S. presidential elections: 
 
 - Outreach to "swing" voters (e.g. independents). This can persuade them to prefer the candidate in question, so if the voters actually vote, the candidate should receive a higher vote share.
@@ -14,8 +14,10 @@ The "ground game", or a candidate's campaign, is rooted in the idea that direct 
 
 **However, this explanation of voter behavior, like the explanation for the Air War, is structurally incompatible with the fundamentals model**, simply because it suggests that voters change their mind over time. With that being said, it would be interesting to compare the effectiveness of ground campaigning with the effectiveness of mass media advertising, particularly because both have similar goals and require substantial monetary resources.
 
-[Last week](https://yanxifang.github.io/Gov-1347/2020/10/09/Week-Five-Predictions.html), I was unable to find a meaningful impact of advertising. As it turns out, I should have used the logarithm of the ad cost rather than the ad cost itself: advertising only impacts voters at the margin (i.e. a relatively small, but electorally significant, number of voters), so there are declining returns to scale. Below, I will repeat some of the analysis, as well as add new analysis for the "ground game".
+## Comparing the Air War & The Ground Game
+[Last week](https://yanxifang.github.io/Gov-1347/2020/10/09/Week-Five-Predictions.html), I was unable to find a meaningful impact of advertising. As it turns out, I should have used the logarithm of the ad cost rather than the ad cost itself: advertising only impacts voters at the margin (i.e. a relatively small, but electorally significant, number of voters), so there are declining returns to scale. However, even when using the logarithm of the costs, I was still unable to find a linear regression that shows a clear correlation, either positive or negative, between advertisement spending and the two-party vote share.
 
+Consequently, 
 
 
 ## Demographics

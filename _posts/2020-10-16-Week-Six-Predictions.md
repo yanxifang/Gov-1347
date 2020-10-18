@@ -65,4 +65,20 @@ After excluding these states, I analyzed demographic data, which only included b
 <tr><td style="text-align:left">age3045</td><td></td><td></td></tr>
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr></table>
 
+**However, the above analysis assumes that demographic blocs vote differently across states, which may not be true.** Instead, demographic blocs may exhibit the same behavior nationally. When excluding the `state` variable in the multivariate linear regression, the R-squared values suffer drastically (dropping to 0.3265 and 0.3891, respectively), but the demographics coefficients become much better, statistically speaking -- at least for the Democratic regression. Below is the corresponding table:
+
+<table style="text-align:center"><caption><strong>Demographics and Election Outcomes (1992-2016)</strong></caption>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="2"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="2" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td colspan="2">win_pv2p</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Asian</td><td>0.218<sup>***</sup> (0.030)</td><td>-2.294<sup>***</sup> (0.526)</td></tr>
+<tr><td style="text-align:left">Black</td><td>-0.237<sup>***</sup> (0.063)</td><td>0.093 (0.067)</td></tr>
+<tr><td style="text-align:left">Hispanic</td><td>0.176<sup>***</sup> (0.048)</td><td>-0.025 (0.073)</td></tr>
+<tr><td style="text-align:left">Indigenous</td><td>-0.949<sup>***</sup> (0.299)</td><td>-0.618<sup>*</sup> (0.333)</td></tr>
+<tr><td style="text-align:left">Female</td><td>4.527<sup>***</sup> (0.689)</td><td>-2.820<sup>**</sup> (1.079)</td></tr>
+<tr><td style="text-align:left">age20</td><td>1.168<sup>**</sup> (0.472)</td><td>1.246<sup>**</sup> (0.576)</td></tr>
+<tr><td style="text-align:left">age3045</td><td></td><td></td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr></table>
+
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

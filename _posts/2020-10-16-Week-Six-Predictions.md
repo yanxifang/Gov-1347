@@ -19,7 +19,7 @@ The "ground game", or a candidate's campaign, is rooted in the idea that direct 
 
 Obviously, without a clear indication of whether advertising has any effect on vote share, it becomes difficult to compare advertising to the ground game. Nonetheless, it should be interesting to see whether there are any correlations between campaign activity and increased vote share. **Again, there is very little data available on ground campaign activity.** This is not surprising, considering that parties may employ the same campaign strategists for different candidates in different years, which potentially makes campaign activity 
 
-\begin{table}[!htbp] \centering 
+`\begin{table}[!htbp] \centering 
   \caption{Placement of Field Offices (2012)} 
   \label{} 
 \scriptsize 
@@ -42,7 +42,7 @@ Obviously, without a clear indication of whether advertising has any effect on v
 \hline 
 \hline \\[-1.8ex] 
 \end{tabular} 
-\end{table} 
+\end{table}`
 
 ## Demographics
 Certain demographic blocs have reliably voted for particular parties: for instance, many Black Americans consistently vote for the Democratic presidential nominee. This week, I will also analyze the 

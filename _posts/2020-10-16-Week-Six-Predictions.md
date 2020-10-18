@@ -17,8 +17,32 @@ The "ground game", or a candidate's campaign, is rooted in the idea that direct 
 ## Comparing the Air War & The Ground Game
 [Last week](https://yanxifang.github.io/Gov-1347/2020/10/09/Week-Five-Predictions.html), I was unable to find a meaningful impact of advertising. As it turns out, I should have used the logarithm of the ad cost rather than the ad cost itself: advertising only impacts voters at the margin (i.e. a relatively small, but electorally significant, number of voters), so there are declining returns to scale. However, even when using the logarithm of the costs, I was still unable to find a linear regression that shows a clear correlation, either positive or negative, between advertisement spending and the two-party vote share (note: this was for the 2012 campaign, the most recent year for which I have extensive data).
 
-Obviously, without a clear indication of whether advertising has any effect on vote share, it becomes difficult to compare advertising to the ground game. Nonetheless, it should be interesting to see whether there are any correlations between campaign activity and increased vote share.
+Obviously, without a clear indication of whether advertising has any effect on vote share, it becomes difficult to compare advertising to the ground game. Nonetheless, it should be interesting to see whether there are any correlations between campaign activity and increased vote share. **Again, there is very little data available on ground campaign activity.** This is not surprising, considering that parties may employ the same campaign strategists for different candidates in different years, which potentially makes campaign activity 
 
+\begin{table}[!htbp] \centering 
+  \caption{Placement of Field Offices (2012)} 
+  \label{} 
+\scriptsize 
+\begin{tabular}{@{\extracolsep{3pt}}lcc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{2}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-3} 
+\\[-1.8ex] & obama12fo & romney12fo \\ 
+\\[-1.8ex] & (1) & (2)\\ 
+\hline \\[-1.8ex] 
+ romney12fo & 1.879$^{***}$ (0.031) &  \\ 
+  obama12fo &  & 0.289$^{***}$ (0.005) \\ 
+  swing & $-$0.247$^{***}$ (0.058) & $-$0.031$^{***}$ (0.010) \\ 
+  core\_rep & $-$0.392$^{***}$ (0.062) &  \\ 
+  core\_dem &  & $-$0.079$^{***}$ (0.024) \\ 
+  battle & 0.325$^{***}$ (0.100) & 0.059 (0.039) \\ 
+  as.factor(state)Arizona &  &  \\ 
+ \hline \\[-1.8ex] 
+\hline 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
 
 ## Demographics
 Certain demographic blocs have reliably voted for particular parties: for instance, many Black Americans consistently vote for the Democratic presidential nominee. This week, I will also analyze the 

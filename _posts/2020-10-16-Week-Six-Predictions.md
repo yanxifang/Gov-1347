@@ -49,9 +49,6 @@ First, I looked at states that reliably voted for certain parties. I should excl
 
 An initial glance at this list does raise some suspicion about the validity of this model: in particular, states like Massachusetts, California, Rhode Island, and Vermont are today considered to be solidly Democratic states. However, this is easily explained by Reagan's landslide in 1984, when he won all states/areas except Minnesota and D.C.
 
-After excluding these states, I analyzed demographic data.
-
-## Ongoing Model & Revised Prediction for 2020
-This week, I also revisited my ongoing model.
+After excluding these states, I analyzed demographic data. I first performed regressions on 
 
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

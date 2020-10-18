@@ -12,7 +12,9 @@ The "ground game", or a candidate's campaign, is rooted in the idea that direct 
 - Outreach to "swing" voters (e.g. independents). This can persuade them to prefer the candidate in question, so if the voters actually vote, the candidate should receive a higher vote share.
 - Outreach to "reliable" voters (e.g. registered party members). This can persuade them to actually go out and vote, allowing the candidate to receive a higher vote share. 
 
-**However, this explanation of voter behavior, like the explanation for the Air War, is structurally incompatible with the fundamentals model**, simply because it suggests that voters change their mind over time.
+**However, this explanation of voter behavior, like the explanation for the Air War, is structurally incompatible with the fundamentals model**, simply because it suggests that voters change their mind over time. With that being said, it would be interesting to compare the effectiveness of ground campaigning with the effectiveness of mass media advertising, particularly because both have similar goals and require substantial monetary resources.
+
+[Last week](https://yanxifang.github.io/Gov-1347/2020/10/09/Week-Five-Predictions.html), I was unable to find a meaningful impact of advertising. As it turns out, I should have used the logarithm of the ad cost rather than the ad cost itself: advertising only impacts voters at the margin (i.e. a relatively small, but electorally significant, number of voters), so there are declining returns to scale. Below, I will repeat some of the analysis, as well as add new analysis for the "ground game".
 
 
 

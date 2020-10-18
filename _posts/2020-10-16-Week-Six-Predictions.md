@@ -31,11 +31,21 @@ Using data from the 2012 campaign cycle (the only year for which complete county
 <tr><td style="text-align:left">swing</td><td>-0.247<sup>***</sup> (0.058)</td><td>-0.031<sup>***</sup> (0.010)</td></tr>
 <tr><td style="text-align:left">core_rep</td><td>-0.392<sup>***</sup> (0.062)</td><td></td></tr>
 <tr><td style="text-align:left">core_dem</td><td></td><td>-0.079<sup>***</sup> (0.024)</td></tr>
-<tr><td style="text-align:left">battle</td><td>0.325<sup>***</sup> (0.100)</td><td>0.059 (0.039)</td></tr>
-<tr><td style="text-align:left">as.factor(state)Arizona</td><td></td><td></td></tr>
+<tr><td style="text-align:left">battle</td><td></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>0.263<sup>***</sup> (0.090)</td><td>0.026 (0.030)</td></tr>
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr></table>
 
-The more interesting model would be one that describes the impact (if any) of field offices on voter turnout or voter persuasion. In this case, only Democratic Party data is available, from 2004 to 2012. 
+The more interesting model would be one that describes the impact (if any) of field offices on voter turnout or voter persuasion. In this case, only Democratic Party data is available, from 2004 to 2012. Unfortunately, this data does not tell much about the impact of field offices. I ran a regression on the percentage change in Democratic vote share against the number of field office changes, whether a county is a battleground county, and the year, and the resulting model had a R-squared value of 0.342 with highly statistically significant coefficients for all three variables, as shown below.
+
+<table style="text-align:center"><caption><strong>Effects of Democratic Field Offices, 2004-2012</strong></caption>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="1" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td>dempct_change</td></tr>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">dummy_fo_change</td><td>0.017<sup>***</sup> (0.001)</td></tr>
+<tr><td style="text-align:left">battle</td><td>0.016<sup>***</sup> (0.001)</td></tr>
+<tr><td style="text-align:left">as.factor(year)2012</td><td>-0.048<sup>***</sup> (0.001)</td></tr>
+<tr><td style="text-align:left">Constant</td><td>0.016<sup>***</sup> (0.001)</td></tr>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr></table>
 
 ## Demographics
 Certain demographic blocs have reliably voted for particular parties: for instance, many Black Americans consistently vote for the Democratic presidential nominee. If this is the case on a broad/national-level scale, then it might make more sense to focus on the fundamentals models, rather than assuming that voter preferences can be changed.
@@ -62,7 +72,9 @@ After excluding these states, I analyzed demographic data, which included variab
 <tr><td style="text-align:left">Indigenous</td><td>-4.851 (3.364)</td><td>1.133 (4.804)</td></tr>
 <tr><td style="text-align:left">Female</td><td>2.437<sup>*</sup> (1.417)</td><td>-8.402<sup>***</sup> (2.140)</td></tr>
 <tr><td style="text-align:left">age20</td><td>-0.724 (0.835)</td><td>-2.014 (1.861)</td></tr>
-<tr><td style="text-align:left">age3045</td><td></td><td></td></tr>
+<tr><td style="text-align:left">age3045</td><td>-0.488 (1.087)</td><td>-2.345 (2.088)</td></tr>
+<tr><td style="text-align:left">age4565</td><td></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>-16.559 (147.928)</td><td>709.002<sup>***</sup> (235.819)</td></tr>
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr></table>
 
 **However, the above analysis assumes that demographic blocs vote differently across states, which may not be true.** Instead, demographic blocs may exhibit the same behavior nationally; this intuitively makes sense because demographic group interests are unlikely to vary significant across state lines in the context of a nationwide presidential election. 
@@ -80,9 +92,14 @@ So, when excluding the `state` variable in the multivariate linear regression, t
 <tr><td style="text-align:left">Indigenous</td><td>-0.949<sup>***</sup> (0.299)</td><td>-0.618<sup>*</sup> (0.333)</td></tr>
 <tr><td style="text-align:left">Female</td><td>4.527<sup>***</sup> (0.689)</td><td>-2.820<sup>**</sup> (1.079)</td></tr>
 <tr><td style="text-align:left">age20</td><td>1.168<sup>**</sup> (0.472)</td><td>1.246<sup>**</sup> (0.576)</td></tr>
-<tr><td style="text-align:left">age3045</td><td></td><td></td></tr>
+<tr><td style="text-align:left">age3045</td><td>1.193<sup>**</sup> (0.510)</td><td>1.363<sup>**</sup> (0.613)</td></tr>
+<tr><td style="text-align:left">age4565</td><td>1.593<sup>***</sup> (0.574)</td><td>2.101<sup>***</sup> (0.706)</td></tr>
+<tr><td style="text-align:left">Constant</td><td>-294.730<sup>***</sup> (74.103)</td><td>64.395 (92.914)</td></tr>
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr></table>
 
 Interestingly, the coefficients for Black and Indigenous are negative and statistically significant. These two groups are perceived as strongly preferring Democratic candidates, so it does not make much sense that states with larger populations of these groups actually see a lower vote share for Democrats. (This could be explained, however, by a lower turnout rate for these groups.) Nonetheless, overall, **this data affirms the story that many media outlets routinely report: that demographics matter, and that females, as well as minority groups, are more likely to vote Democratic.**
+
+## Conclusions
+This week, my analysis of the ground game 
 
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

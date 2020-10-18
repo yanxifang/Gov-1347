@@ -19,30 +19,19 @@ The "ground game", or a candidate's campaign, is rooted in the idea that direct 
 
 Obviously, without a clear indication of whether advertising has any effect on vote share, it becomes difficult to compare advertising to the ground game. Nonetheless, it should be interesting to see whether there are any correlations between campaign activity and increased vote share. **Again, there is very little data available on ground campaign activity.** This is not surprising, considering that parties may employ the same campaign strategists for different candidates in different years, which potentially makes campaign activity 
 
-`\begin{table}[!htbp] \centering 
-  \caption{Placement of Field Offices (2012)} 
-  \label{} 
-\scriptsize 
-\begin{tabular}{@{\extracolsep{3pt}}lcc} 
-\\[-1.8ex]\hline 
-\hline \\[-1.8ex] 
- & \multicolumn{2}{c}{\textit{Dependent variable:}} \\ 
-\cline{2-3} 
-\\[-1.8ex] & obama12fo & romney12fo \\ 
-\\[-1.8ex] & (1) & (2)\\ 
-\hline \\[-1.8ex] 
- romney12fo & 1.879$^{***}$ (0.031) &  \\ 
-  obama12fo &  & 0.289$^{***}$ (0.005) \\ 
-  swing & $-$0.247$^{***}$ (0.058) & $-$0.031$^{***}$ (0.010) \\ 
-  core\_rep & $-$0.392$^{***}$ (0.062) &  \\ 
-  core\_dem &  & $-$0.079$^{***}$ (0.024) \\ 
-  battle & 0.325$^{***}$ (0.100) & 0.059 (0.039) \\ 
-  as.factor(state)Arizona &  &  \\ 
- \hline \\[-1.8ex] 
-\hline 
-\hline \\[-1.8ex] 
-\end{tabular} 
-\end{table}`
+<table style="text-align:center"><caption><strong>Placement of Field Offices (2012)</strong></caption>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="2"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="2" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td>obama12fo</td><td>romney12fo</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">romney12fo</td><td>1.879<sup>***</sup> (0.031)</td><td></td></tr>
+<tr><td style="text-align:left">obama12fo</td><td></td><td>0.289<sup>***</sup> (0.005)</td></tr>
+<tr><td style="text-align:left">swing</td><td>-0.247<sup>***</sup> (0.058)</td><td>-0.031<sup>***</sup> (0.010)</td></tr>
+<tr><td style="text-align:left">core_rep</td><td>-0.392<sup>***</sup> (0.062)</td><td></td></tr>
+<tr><td style="text-align:left">core_dem</td><td></td><td>-0.079<sup>***</sup> (0.024)</td></tr>
+<tr><td style="text-align:left">battle</td><td>0.325<sup>***</sup> (0.100)</td><td>0.059 (0.039)</td></tr>
+<tr><td style="text-align:left">as.factor(state)Arizona</td><td></td><td></td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr></table>
 
 ## Demographics
 Certain demographic blocs have reliably voted for particular parties: for instance, many Black Americans consistently vote for the Democratic presidential nominee. This week, I will also analyze the 

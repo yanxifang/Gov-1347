@@ -49,7 +49,7 @@ First, I looked at states that reliably voted for certain parties. I should excl
 
 An initial glance at this list does raise some suspicion about the validity of this model: in particular, states like Massachusetts, California, Rhode Island, and Vermont are today considered to be solidly Democratic states. However, this is easily explained by Reagan's landslide in 1984, when he won all states/areas except Minnesota and D.C.
 
-After excluding these states, I analyzed demographic data, which only included binary variables for race/ethnicity, gender, and age. I first performed regressions on the overall data without regard to whether the party in question won or lost the election, and found that although the R-squared value was high (0.7543), neither the race/ethnicity nor age variables had statistically significant coefficients. Then, I split up the data into two party-specific sets: one for all the elections won by Democrats, and a corresponding one for Republicans. The regressions on these had lower R-squared values (0.6384 and 0.5564, respectively), but still, the overwhelming majority of the demographic variables did not have statistically significant coefficients. Below are the results of my regressions (note: (1) is the Democratic regression, and (2) is the Republican one).
+After excluding these states, I analyzed demographic data, which included variables for race/ethnicity, gender, and age. I first performed regressions on the overall data without regard to whether the party in question won or lost the election, and found that although the R-squared value was high (0.7543), neither the race/ethnicity nor age variables had statistically significant coefficients. Then, I split up the data into two party-specific sets: one for all the elections won by Democrats, and a corresponding one for Republicans. The regressions on these had lower R-squared values (0.6384 and 0.5564, respectively), but still, the overwhelming majority of the demographic variables did not have statistically significant coefficients. Below are the results of my regressions (note: (1) is the Democratic regression, and (2) is the Republican one).
 
 <table style="text-align:center"><caption><strong>Demographics and Election Outcomes (1992-2016)</strong></caption>
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="2"><em>Dependent variable:</em></td></tr>
@@ -65,7 +65,9 @@ After excluding these states, I analyzed demographic data, which only included b
 <tr><td style="text-align:left">age3045</td><td></td><td></td></tr>
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr></table>
 
-**However, the above analysis assumes that demographic blocs vote differently across states, which may not be true.** Instead, demographic blocs may exhibit the same behavior nationally. When excluding the `state` variable in the multivariate linear regression, the R-squared values suffer drastically (dropping to 0.3265 and 0.3891, respectively), but the demographics coefficients become much better, statistically speaking -- at least for the Democratic regression. Below is the corresponding table:
+**However, the above analysis assumes that demographic blocs vote differently across states, which may not be true.** Instead, demographic blocs may exhibit the same behavior nationally; this intuitively makes sense because demographic group interests are unlikely to vary significant across state lines in the context of a nationwide presidential election. 
+
+So, when excluding the `state` variable in the multivariate linear regression, the R-squared values suffer drastically (dropping to 0.3265 and 0.3891, respectively), since the underlying state differences in Democratic/Republican vote share are no longer being accounted for. However, the demographics coefficients become much better, statistically speaking -- at least for the Democratic regression. Below is the corresponding table (again, (1) is Democratic and (2) is Republican):
 
 <table style="text-align:center"><caption><strong>Demographics and Election Outcomes (1992-2016)</strong></caption>
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="2"><em>Dependent variable:</em></td></tr>
@@ -80,5 +82,7 @@ After excluding these states, I analyzed demographic data, which only included b
 <tr><td style="text-align:left">age20</td><td>1.168<sup>**</sup> (0.472)</td><td>1.246<sup>**</sup> (0.576)</td></tr>
 <tr><td style="text-align:left">age3045</td><td></td><td></td></tr>
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr></table>
+
+Interestingly, the coefficients for Black and Indigenous are negative and statistically significant. These two groups are perceived as strongly preferring Democratic candidates, so it does not make much sense that states with larger populations of these groups actually see a lower vote share for Democrats. (This could be explained, however, by a lower turnout rate for these groups.) Nonetheless, overall, **this data affirms the story that many media outlets routinely report: that demographics matter, and that females, as well as minority groups, are more likely to vote Democratic.**
 
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

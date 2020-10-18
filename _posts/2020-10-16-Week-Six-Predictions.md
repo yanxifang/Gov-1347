@@ -40,14 +40,16 @@ The more interesting model would be one that describes the impact (if any) of fi
 ## Demographics
 Certain demographic blocs have reliably voted for particular parties: for instance, many Black Americans consistently vote for the Democratic presidential nominee. If this is the case on a broad/national-level scale, then it might make more sense to focus on the fundamentals models, rather than assuming that voter preferences can be changed.
 
-First, I looked at states that reliably voted for certain parties. I should exclude these "solid" states from the demographics analysis, because the consistency of those states may lead to an underestimation of the impact that demographics have on election results. **Defining "reliably voting" as having voted for the presidential candidate from the same party every election cycle since 1980, I found 15 states/areas that are "solidly Democratic" (2) and "solidly Republican" (13).** These states are:
+First, I looked at states that reliably voted for certain parties. I should exclude these "solid" states from the demographics analysis, because the consistency of those states may lead to an underestimation of the impact that demographics have on election results. **Defining "reliably voting" as having voted for the presidential candidate from the same party every election cycle since 1980, I found 15 states/areas that are "solidly Republican" (13) and "solidly Democratic" (2).** These states are:
 
 - **Republican:** Alabama, Alaska, Idaho, Kansas, Mississippi, Nebraska, Oklahoma, South Carolina, South Dakota, Texas, Utah, Wyoming
 - **Democratic:** Minnesota, Washington D.C.
 
+![Safe States, 1980-2016](https://yanxifang.github.io/Gov-1347/images/safe_states_historical.png)
+
 An initial glance at this list does raise some suspicion about the validity of this model: in particular, states like Massachusetts, California, Rhode Island, and Vermont are today considered to be solidly Democratic states. However, this is easily explained by Reagan's landslide in 1984, when he won all states/areas except Minnesota and D.C.
 
-
+After excluding these states, 
 
 ## Ongoing Model & Revised Prediction for 2020
 This week, I also revisited my ongoing model.

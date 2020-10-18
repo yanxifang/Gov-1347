@@ -49,6 +49,20 @@ First, I looked at states that reliably voted for certain parties. I should excl
 
 An initial glance at this list does raise some suspicion about the validity of this model: in particular, states like Massachusetts, California, Rhode Island, and Vermont are today considered to be solidly Democratic states. However, this is easily explained by Reagan's landslide in 1984, when he won all states/areas except Minnesota and D.C.
 
-After excluding these states, I analyzed demographic data. I first performed regressions on 
+After excluding these states, I analyzed demographic data, which only included binary variables for race/ethnicity, gender, and age. I first performed regressions on the overall data without regard to whether the party in question won or lost the election, and found that although the R-squared value was high (0.7543), neither the race/ethnicity nor age variables had statistically significant coefficients. Then, I split up the data into two party-specific sets: one for all the elections won by Democrats, and a corresponding one for Republicans. The regressions on these had lower R-squared values (0.6384 and 0.5564, respectively), but still, the overwhelming majority of the demographic variables did not have statistically significant coefficients. Below are the results of my regressions:
+
+<table style="text-align:center"><caption><strong>Demographics and Election Outcomes (1992-2016)</strong></caption>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="2"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="2" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td colspan="2">win_pv2p</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Asian</td><td>-0.265 (0.467)</td><td>2.488 (1.952)</td></tr>
+<tr><td style="text-align:left">Black</td><td>-0.408 (0.469)</td><td>-0.750 (0.889)</td></tr>
+<tr><td style="text-align:left">Hispanic</td><td>0.123 (0.242)</td><td>-0.611 (0.463)</td></tr>
+<tr><td style="text-align:left">Indigenous</td><td>-4.851 (3.364)</td><td>1.133 (4.804)</td></tr>
+<tr><td style="text-align:left">Female</td><td>2.437<sup>*</sup> (1.417)</td><td>-8.402<sup>***</sup> (2.140)</td></tr>
+<tr><td style="text-align:left">age20</td><td>-0.724 (0.835)</td><td>-2.014 (1.861)</td></tr>
+<tr><td style="text-align:left">age3045</td><td></td><td></td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr></table>
 
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

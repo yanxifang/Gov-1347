@@ -17,7 +17,9 @@ The "ground game", or a candidate's campaign, is rooted in the idea that direct 
 ## Comparing the Air War & The Ground Game
 [Last week](https://yanxifang.github.io/Gov-1347/2020/10/09/Week-Five-Predictions.html), I was unable to find a meaningful impact of advertising. As it turns out, I should have used the logarithm of the ad cost rather than the ad cost itself: advertising only impacts voters at the margin (i.e. a relatively small, but electorally significant, number of voters), so there are declining returns to scale. However, even when using the logarithm of the costs, I was still unable to find a linear regression that shows a clear correlation, either positive or negative, between advertisement spending and the two-party vote share (note: this was for the 2012 campaign, the most recent year for which I have extensive data).
 
-Obviously, without a clear indication of whether advertising has any effect on vote share, it becomes difficult to compare advertising to the ground game. Nonetheless, it should be interesting to see whether there are any correlations between campaign activity and increased vote share. **Again, there is very little data available on ground campaign activity.** This is not surprising, considering that parties may employ the same campaign strategists for different candidates in different years, which potentially makes campaign activity 
+Obviously, without a clear indication of whether advertising has any effect on vote share, it becomes difficult to compare advertising to the ground game. Nonetheless, it should be interesting to see whether there are any correlations between campaign activity and increased vote share. **Again, there is very little data available on ground campaign activity.** This is not surprising, considering that parties may employ the same campaign strategists for different candidates in different years, which potentially makes campaign activity a secret of some sort.
+
+Using data from the 2012 campaign cycle (the only year for which complete county-level data is available), I developed models for field office placement by both the Obama and Romney campaigns. As shown below, **there appears to be a "matching" effect, as well as more campaign offices in battleground counties (but not swing ones).** There are a few drawbacks to this model of placement: for instance, while the model accounts for state-to-state differences, it does not account for population (perhaps a higher-population county is more likely to have an office), nor does it account for the fact that campaign office activities are not restricted to one county and could have been placed at a location where volunteers or staffers can reach nearby counties as well.
 
 <table style="text-align:center"><caption><strong>Placement of Field Offices (2012)</strong></caption>
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="2"><em>Dependent variable:</em></td></tr>
@@ -33,8 +35,19 @@ Obviously, without a clear indication of whether advertising has any effect on v
 <tr><td style="text-align:left">as.factor(state)Arizona</td><td></td><td></td></tr>
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr></table>
 
+The more interesting model would be one that describes the impact (if any) of field offices on voter turnout or voter persuasion. In this case, only Democratic Party data is available, from 2004 to 2012. 
+
 ## Demographics
-Certain demographic blocs have reliably voted for particular parties: for instance, many Black Americans consistently vote for the Democratic presidential nominee. This week, I will also analyze the 
+Certain demographic blocs have reliably voted for particular parties: for instance, many Black Americans consistently vote for the Democratic presidential nominee. If this is the case on a broad/national-level scale, then it might make more sense to focus on the fundamentals models, rather than assuming that voter preferences can be changed.
+
+First, I looked at states that reliably voted for certain parties. I should exclude these "solid" states from the demographics analysis, because the consistency of those states may lead to an underestimation of the impact that demographics have on election results. **Defining "reliably voting" as having voted for the presidential candidate from the same party every election cycle since 1980, I found 15 states/areas that are "solidly Democratic" (2) and "solidly Republican" (13).** These states are:
+
+- **Republican:** Alabama, Alaska, Idaho, Kansas, Mississippi, Nebraska, Oklahoma, South Carolina, South Dakota, Texas, Utah, Wyoming
+- **Democratic:** Minnesota, Washington D.C.
+
+An initial glance at this list does raise some suspicion about the validity of this model: in particular, states like Massachusetts, California, Rhode Island, and Vermont are today considered to be solidly Democratic states. However, this is easily explained by Reagan's landslide in 1984, when he won all states/areas except Minnesota and D.C.
+
+
 
 ## Ongoing Model & Revised Prediction for 2020
 This week, I also revisited my ongoing model.

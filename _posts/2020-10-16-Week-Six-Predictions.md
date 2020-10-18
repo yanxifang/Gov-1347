@@ -3,7 +3,7 @@ title: "Week 6 Analysis: The Ground Game, and Demographics"
 date: "2020-10-16"
 ---
 
-## Week 6 Analysis: The Ground Game, and Demographics
+## Week 6 Analysis: Ground Game / Demographics
 *Friday, October 16, 2020*
 
 ## Intro: The Ground Game

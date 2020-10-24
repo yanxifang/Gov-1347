@@ -24,3 +24,9 @@ Friday, October 9, 2020: I am using advertising data to evaluate the impacts, if
 
 ### [Week 6: Ground Game & Demographics](https://yanxifang.github.io/Gov-1347/2020/10/16/Week-Six-Predictions.html)
 Friday, October 16, 2020: I will analyze the impacts of ground-level campaigning on voter turnout and election outcomes. I will also evaluate the role of demographics - and demographic surges - in presidential election outcomes.
+
+### [Week 7: Shocks & COVID-19](https://yanxifang.github.io/Gov-1347/2020/10/23/Week-Seven-Predictions.html)
+Friday, October 23, 2020: I will examine the role of shocks in presidential elections, and predict the impacts of COVID-19 on this year's election outcomes.
+
+### [Final Prediction Model](https://yanxifang.github.io/Gov-1347/2020/11/01/Final-Prediction-Model.html)
+(Coming Soon) Sunday, November 1, 2020: This is my final prediction model for the 2020 presidential election!

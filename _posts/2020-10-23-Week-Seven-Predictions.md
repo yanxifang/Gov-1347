@@ -7,3 +7,5 @@ date: "2020-10-23"
 *Friday, October 23, 2020*
 
 ## Intro: The Ground Game
+
+Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

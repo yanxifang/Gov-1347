@@ -55,5 +55,40 @@ Instead, I will build on my demographics findings from last week to model surges
 <tr><td style="text-align:left">Hispanic_change:Hispanic</td><td>-0.027<sup>***</sup> (0.007)</td></tr>
 <tr><td style="text-align:left">Indigenous_change:Indigenous</td><td>0.087<sup>***</sup> (0.019)</td></tr>
 <tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr></table>
+> stargazer(county_d_lm_5, header=FALSE, type='html', no.space = TRUE,
++           column.sep.width = "3pt", font.size = "scriptsize", single.row = TRUE,
++           keep = c(1:30), omit.table.layout = "sn",
++           title = "Demographics: Baseline Model")
+
+<table style="text-align:center"><caption><strong>Demographics: Baseline Model</strong></caption>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="1" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td>d_pv (Democratic Popular Voteshare)</td></tr>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Asian_change</td><td>5.417<sup>***</sup> (0.578)</td></tr>
+<tr><td style="text-align:left">Asian</td><td>0.895<sup>***</sup> (0.037)</td></tr>
+<tr><td style="text-align:left">Black_change</td><td>0.293 (0.300)</td></tr>
+<tr><td style="text-align:left">Black</td><td>0.378<sup>***</sup> (0.008)</td></tr>
+<tr><td style="text-align:left">Hispanic_change</td><td>-2.825<sup>***</sup> (0.213)</td></tr>
+<tr><td style="text-align:left">Hispanic</td><td>0.308<sup>***</sup> (0.012)</td></tr>
+<tr><td style="text-align:left">Indigenous_change</td><td>-3.343<sup>***</sup> (0.678)</td></tr>
+<tr><td style="text-align:left">Indigenous</td><td>0.378<sup>***</sup> (0.018)</td></tr>
+<tr><td style="text-align:left">Female_change</td><td>-3.325<sup>*</sup> (1.756)</td></tr>
+<tr><td style="text-align:left">Female</td><td>0.744<sup>***</sup> (0.045)</td></tr>
+<tr><td style="text-align:left">age20_change</td><td>-0.150 (0.455)</td></tr>
+<tr><td style="text-align:left">age20</td><td>-0.622<sup>***</sup> (0.060)</td></tr>
+<tr><td style="text-align:left">age3045_change</td><td>0.747 (0.802)</td></tr>
+<tr><td style="text-align:left">age3045</td><td>-0.668<sup>***</sup> (0.069)</td></tr>
+<tr><td style="text-align:left">age4565_change</td><td>3.855<sup>***</sup> (0.616)</td></tr>
+<tr><td style="text-align:left">age4565</td><td>-1.500<sup>***</sup> (0.090)</td></tr>
+<tr><td style="text-align:left">Asian_change:Asian</td><td>-0.155<sup>***</sup> (0.026)</td></tr>
+<tr><td style="text-align:left">Black_change:Black</td><td>-0.016<sup>*</sup> (0.009)</td></tr>
+<tr><td style="text-align:left">Hispanic_change:Hispanic</td><td>-0.027<sup>***</sup> (0.007)</td></tr>
+<tr><td style="text-align:left">Indigenous_change:Indigenous</td><td>0.087<sup>***</sup> (0.019)</td></tr>
+<tr><td style="text-align:left">Female_change:Female</td><td>0.030 (0.037)</td></tr>
+<tr><td style="text-align:left">age20_change:age20</td><td>0.046<sup>***</sup> (0.016)</td></tr>
+<tr><td style="text-align:left">age3045_change:age3045</td><td>-0.013 (0.019)</td></tr>
+<tr><td style="text-align:left">age4565_change:age4565</td><td>0.015 (0.019)</td></tr>
+<tr><td style="text-align:left">Constant</td><td>69.419<sup>***</sup> (6.665)</td></tr>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr></table>
 
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

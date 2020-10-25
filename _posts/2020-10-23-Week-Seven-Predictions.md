@@ -28,39 +28,10 @@ I was originally hoping to build a probabilistic model for this week. However, f
 
 Instead, I will build on my demographics findings from last week to model surges, and specifically, surges caused by the COVID-19 pandemic. In my analysis, I used data from the U.S. CDC on [COVID-19 deaths at the county level](https://data.cdc.gov/NCHS/Provisional-COVID-19-Death-Counts-in-the-United-St/kn79-hsxy), which I then merged with county-level popular vote share data for 2000-2016, as well as data for county-level demographics (age groups, gender, and race/ethnicity). Having learned about shocks this week, I am more confident about the theroetical underpinnings of assigning arbitary numbers to model surge effects than I was last week.
 
-**In my model, I will assume that both Black and Latinx voters will turn out at double their usual rate.** As previously mentioned, all major media outlets have reported that these two groups have suffered disproportionately more from COVID-19 due to a mixture of greater exposure and more pre-existing adverse health conditions. For my baseline (non-surge) model, I ended up using a regression with the change in all of the demographic variables, as well as interaction terms to account for the relative size of the change.
+**In my model, I will assume that both Black and Latinx voters will turn out at double their usual rate.** As previously mentioned, all major media outlets have reported that these two groups have suffered disproportionately more from COVID-19 due to a mixture of greater exposure and more pre-existing adverse health conditions. For my baseline (non-surge) model, I ended up using a regression with the change in all of the demographic variables, as well as interaction terms to account for the relative size of the change. This regression had an R-squared value of `0.3749`, which is not ideal but not too terrible.
 
+From there, I plugged in the data for my assumption (doubled Black and doubled Latinx turnout), and created a new data frame. However, I was unable to plot the data with the `usmap` package for some reason (the error: `Error in match.arg(regions): 'arg' must be NULL or a character vector`). Unfortunately, except for the R code, I have nothing to show for my efforts: the data only includes the predicted popular vote percentage received by Democrats by county, making it hard to translate into an actual prediction due to the lack of a denominator (i.e. since turnout is expected to change between 2016 and 2020) and missing information for many counties.
 
-
-<table style="text-align:center"><caption><strong>Demographics: Baseline Model</strong></caption>
-<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td><em>Dependent variable:</em></td></tr>
-<tr><td></td><td colspan="1" style="border-bottom: 1px solid black"></td></tr>
-<tr><td style="text-align:left"></td><td>d_pv (Democratic Popular Voteshare)</td></tr>
-<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Asian_change</td><td>5.417<sup>***</sup> (0.578)</td></tr>
-<tr><td style="text-align:left">Asian</td><td>0.895<sup>***</sup> (0.037)</td></tr>
-<tr><td style="text-align:left">Black_change</td><td>0.293 (0.300)</td></tr>
-<tr><td style="text-align:left">Black</td><td>0.378<sup>***</sup> (0.008)</td></tr>
-<tr><td style="text-align:left">Hispanic_change</td><td>-2.825<sup>***</sup> (0.213)</td></tr>
-<tr><td style="text-align:left">Hispanic</td><td>0.308<sup>***</sup> (0.012)</td></tr>
-<tr><td style="text-align:left">Indigenous_change</td><td>-3.343<sup>***</sup> (0.678)</td></tr>
-<tr><td style="text-align:left">Indigenous</td><td>0.378<sup>***</sup> (0.018)</td></tr>
-<tr><td style="text-align:left">Female_change</td><td>-3.325<sup>*</sup> (1.756)</td></tr>
-<tr><td style="text-align:left">Female</td><td>0.744<sup>***</sup> (0.045)</td></tr>
-<tr><td style="text-align:left">age20_change</td><td>-0.150 (0.455)</td></tr>
-<tr><td style="text-align:left">age20</td><td>-0.622<sup>***</sup> (0.060)</td></tr>
-<tr><td style="text-align:left">age3045_change</td><td>0.747 (0.802)</td></tr>
-<tr><td style="text-align:left">age3045</td><td>-0.668<sup>***</sup> (0.069)</td></tr>
-<tr><td style="text-align:left">age4565_change</td><td>3.855<sup>***</sup> (0.616)</td></tr>
-<tr><td style="text-align:left">age4565</td><td>-1.500<sup>***</sup> (0.090)</td></tr>
-<tr><td style="text-align:left">Asian_change:Asian</td><td>-0.155<sup>***</sup> (0.026)</td></tr>
-<tr><td style="text-align:left">Black_change:Black</td><td>-0.016<sup>*</sup> (0.009)</td></tr>
-<tr><td style="text-align:left">Hispanic_change:Hispanic</td><td>-0.027<sup>***</sup> (0.007)</td></tr>
-<tr><td style="text-align:left">Indigenous_change:Indigenous</td><td>0.087<sup>***</sup> (0.019)</td></tr>
-<tr><td style="text-align:left">Female_change:Female</td><td>0.030 (0.037)</td></tr>
-<tr><td style="text-align:left">age20_change:age20</td><td>0.046<sup>***</sup> (0.016)</td></tr>
-<tr><td style="text-align:left">age3045_change:age3045</td><td>-0.013 (0.019)</td></tr>
-<tr><td style="text-align:left">age4565_change:age4565</td><td>0.015 (0.019)</td></tr>
-<tr><td style="text-align:left">Constant</td><td>69.419<sup>***</sup> (6.665)</td></tr>
-<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr></table>
+After creating this model, I also came to the realization that I had used last week's strategy too much: I assumed a pooled model where each county had one set of parameters, when according to my own assumptions, COVID-19 should have county-dependent impacts on voter turnout because each county has experienced different death rates. **Note: I will be updating this page after the deadline when I come up with a more appropriate model.**
 
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

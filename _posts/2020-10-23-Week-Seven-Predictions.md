@@ -34,4 +34,7 @@ From there, I plugged in the data for my assumption (doubled Black and doubled L
 
 After creating this model, I also came to the realization that I had used last week's strategy too much: I assumed a pooled model where each county had one set of parameters, when according to my own assumptions, COVID-19 should have county-dependent impacts on voter turnout because each county has experienced different death rates. **Note: I will be updating this page after the deadline when I come up with a more appropriate model.**
 
+**Update:** I have resolved the error with the map, and created an updated demographic prediction model that now has a R-squared value of `0.48`. However, when plotting the results, the findings are intuitively incorrect (for instance, Massachusetts shows up as going fully Republican, which is *very* unlikely), and I am still confused as to where the data error occurred. This is the map I'm referring to:
+![Predicted Results Based on Double Black and Hispanic Turnout](https://yanxifang.github.io/Gov-1347/images/pred_winner_double_turnout.png)
+
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

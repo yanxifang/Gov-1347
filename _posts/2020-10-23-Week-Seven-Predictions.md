@@ -16,6 +16,9 @@ In particular, the COVID-19 pandemic has undoubtedly impacted many Americans eit
 
 However, some other factors are less clear: for example, in a high-infection/high-death area that has traditionally voted Republican, would there be fewer or more voters? In this case, highly partisan voters may actually have a higher turnout rate in order to support (maybe "defend") Trump, but at the same time, it is possible that more-moderate Republican voters may be discouraged by Trump's response to the shock of COVID-19, but not upset enough to vote for a Democrat, thus depressing turnout. So, I think it makes sense to approach the concept of turnout from a demographics perspective, since different groups are impacted differently (and should, in theory, respond differently) to the "shock" of the COVID-19 pandemic.
 
+## COVID-19 Data by County
+
+
 ## Model: Demographic Surges in Response to Shocks
 I was originally hoping to build a probablistic model for this week. However, from my understanding, the total number of eligible voters in each county is required for the probability calculation, and I was unable to find this information. Instead, all I have in the dataset are the total number of votes cast in each of the presidential elections during 2000-2016, which is not particularly useful because the idea of shocks impacting turnout is centered around the idea that the total number of votes cast will either increase or decrease.
 

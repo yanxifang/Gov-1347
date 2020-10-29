@@ -23,7 +23,12 @@ Today, I will be putting everything together to create a single model - and one 
 ## Model Description & Justification
 Based on my analysis in previous weeks, **I found that polling data was the most convincing information to use. While there is an obvious disadvantage caused by the sparse state-level polls, it is one of the most observable factors out of the ones I learned about.** For instance, advertisement spending and campaign ground operations are both likely to be kept secret until post-election for strategic reasons, while the size of federal grant funding (a potential source of incumbency advantage), as well as the potential impact of an unprecedented shock (e.g. COVID-19), are difficult to fully capture. Meanwhile, the other easily observable factor, economic data, has been adversely disrupted in 2020, mainly by a 31.4% decline in real GDP for the second quarter.
 
-My model will actually *not* include all 50 states. In particular, there are some states that are either so solidly Democratic (e.g. California, Massachusetts, New York) or so solidly Republican (e.g. Alaska, North Dakota, Wyoming), to the extent that their inclusion may even distort the rest of my model. 
+My model will actually *not* include all 50 states, because there are states that are either so solidly Democratic (e.g. California, Massachusetts, New York) or so solidly Republican (e.g. Alaska, North Dakota, Wyoming), to the extent that their inclusion may even distort the rest of my model. I define these states by looking at their historical voting data since 1988, which is immediately after Reagan's two consecutive electoral landslides. If a state has voted consistently for one party from 1988 to 2016, then I will exclude those states from consideration. These are my findings:
+
+| Democratic  | Republican |
+| ----------- | ----------- |
+| California  | Title       |
+| Paragraph   | Text        |
 
 ## Model Formula
 

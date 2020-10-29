@@ -29,7 +29,9 @@ Below is a visualization of these states, with Nebraska and Maine also removed d
 
 ![Safe States, 1992-2016](https://yanxifang.github.io/Gov-1347/images/safe_states_1992_2016.png)
 
-When putting everything together, these "safe" states already provide **;lkj** electoral votes for Biden, and **;lkj** electoral votes for Trump. Clearly, the 
+When putting everything together, these "safe" states already provide **192** electoral votes for Biden, and **59** electoral votes for Trump.
+
+
 
 ## Model Formula
 

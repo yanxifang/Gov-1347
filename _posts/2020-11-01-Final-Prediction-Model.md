@@ -25,6 +25,11 @@ Based on my analysis in previous weeks, **I found that polling data was the most
 
 **My model will actually *not* include all 50 states**, because there are states that are either so solidly Democratic (e.g. California, Massachusetts, New York) or so solidly Republican (e.g. Alaska, North Dakota, Wyoming), to the extent that their inclusion may even distort the rest of my model. I define these states by looking at their historical voting data since 1992, which is immediately after the consecutive Republican landslides of the 1980s. If a state has voted consistently for one party from 1992 to 2016 (7 elections), then I will exclude those states from consideration. However, I did remove Texas from the list of "solidly Republican" states in response to recent media coverage (see [New York Times](https://www.nytimes.com/2020/10/29/us/politics/texas-battleground-state.html) and [Time](https://time.com/5904873/texas-blue-biden-trump/), both 10/29/2020).
 
+Below is a visualization of these states, with Nebraska and Maine also removed due to the presence of a more complicated system for allocating Electoral College votes:
+
+![Safe States, 1992-2016](https://yanxifang.github.io/Gov-1347/images/safe_states_1992_2016.png)
+
+When putting everything together, these "safe" states already provide **;lkj** electoral votes for Biden, and **;lkj** electoral votes for Trump. Clearly, the 
 
 ## Model Formula
 

@@ -7,7 +7,16 @@ date: "2020-11-01"
 *Sunday, November 1, 2020*
 
 ## Intro: The Factors
-Over the past few months, I've studied many of the factors that potentially affect election results, ranging from the economy to shocks, to demographics and the incumbency advantage. Along the way, I created many individual models looking at those 
+Over the past few months, I've studied many of the factors that potentially affect election results, ranging from the economy to shocks, to demographics and the incumbency advantage. Along the way, I created many models looking at those factors individually, which have included:
+
+- Historical Election Results
+- State of the Economy, and Other Fundamentals
+- Polling Data
+- Incumbency (Dis)advantage
+- Air War / Media Spending
+- Ground Game / Campaign Efforts
+- Shocks, and the COVID-19 Pandemic
+- Laws and Administration
 
 ## Model Description & Justification
 

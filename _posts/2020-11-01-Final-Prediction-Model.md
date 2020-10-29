@@ -29,7 +29,7 @@ Below is a visualization of these states, with Nebraska and Maine also removed d
 
 ![Safe States, 1992-2016](https://yanxifang.github.io/Gov-1347/images/safe_states_1992_2016.png)
 
-When putting everything together, these "safe" states already provide **192** electoral votes for Biden, and **59** electoral votes for Trump. This is not so surprising, given the large populations of the West Coast and the Northeast, both of which lean heavily Democratic.
+When putting everything together, these "safe" states already provide **192** electoral votes for Biden, and **59** electoral votes for Trump. This is not so surprising given the large populations of the West Coast and the Northeast, both of which lean heavily Democratic.
 
 **After designating 25 states (plus Washington, D.C.) as safe states for either party, this leaves only 25 states to consider in my model.**
 

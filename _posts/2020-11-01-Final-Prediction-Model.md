@@ -25,10 +25,20 @@ Based on my analysis in previous weeks, **I found that polling data was the most
 
 **My model will actually *not* include all 50 states**, because there are states that are either so solidly Democratic (e.g. California, Massachusetts, New York) or so solidly Republican (e.g. Alaska, North Dakota, Wyoming), to the extent that their inclusion may even distort the rest of my model. I define these states by looking at their historical voting data since 1988, which is immediately after Reagan's two consecutive electoral landslides. If a state has voted consistently for one party from 1988 to 2016, then I will exclude those states from consideration. These are my findings:
 
-| Democratic  | Republican |
-| ----------- | ----------- |
-| California  | Title       |
-| Paragraph   | Text        |
+| Democratic      | Republican |
+| -----------     | ----------- |
+| Dist. of Colum. | Alabama     |
+| Hawaii          | Alaska      |
+| Massachusetts   | Idaho       |
+| Minnesota       | Kansas      |
+| New York        | Mississippi |
+| Oregon          | N. Dakota   |
+| Washington      | Oklahoma    |
+|                 | S. Carolina |
+|                 | S. Dakota   |
+|                 | Texas       |
+|                 | Utah        |
+|                 | Wyoming     |
 
 ## Model Formula
 

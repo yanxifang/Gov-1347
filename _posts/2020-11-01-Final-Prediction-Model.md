@@ -34,9 +34,9 @@ When putting everything together, these "safe" states already provide **192** el
 **After designating 25 states (plus Washington, D.C.) as safe states for either party, this leaves only 25 states to consider in my model.**
 
 ## Model Description & Justification
-Based on my analysis in previous weeks, **I found that polling data was the most convincing information to use, at least across all 50 states. While there is an obvious disadvantage caused by the sparse state-level polls, it is one of the most observable factors out of the ones I learned about.** For instance, advertisement spending and campaign ground operations are both likely to be kept secret until post-election for strategic reasons, while the size of federal grant funding (a potential source of incumbency advantage), as well as the potential impact of an unprecedented shock (e.g. COVID-19), are difficult to fully capture. Meanwhile, the other easily observable factor, economic data, has been adversely disrupted in 2020, mainly by a 31.4% decline in real GDP for the second quarter.
+Based on my analysis in previous weeks, **I found that polling data was the most convincing information to use. While there is an obvious disadvantage caused by the sparse state-level polls, it is one of the most observable factors out of the ones I learned about.** For instance, advertisement spending and campaign ground operations are both likely to be kept secret until post-election for strategic reasons, while the size of federal grant funding (a potential source of incumbency advantage), as well as the potential impact of an unprecedented shock (e.g. COVID-19), are difficult to fully capture. Meanwhile, the other easily observable factor, economic data, has been adversely disrupted in 2020, mainly by a 31.4% decline in real GDP for the second quarter.
 
-The 
+However, those findings were based on all 50 states (plus DC), but now, only 25 states are in consideration.
 
 ## Model Formula
 

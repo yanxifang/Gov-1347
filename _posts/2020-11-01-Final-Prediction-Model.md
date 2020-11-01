@@ -47,7 +47,7 @@ However, those findings were based on all 50 states (plus DC), but now, only 25 
 ## Model Formula / Coefficients, Weights, and Justifications
 This is my model:
 
-![Final Prediction Model](https://yanxifang.github.io/Gov-1347/images/final_prediction.png)
+![Final Prediction Model](https://yanxifang.github.io/Gov-1347/images/final_model.png)
 
 ## Model Validation: In-Sample and Out-of-Sample
 

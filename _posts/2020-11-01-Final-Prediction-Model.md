@@ -39,7 +39,10 @@ Based on my analysis in previous weeks, **I found that polling data was the most
 However, those findings were based on all 50 states (plus DC), but now, only 25 states are in consideration. This justifies revisiting each of the factors that I've considered so far:
 
 - **Historical Data**: Already accounted for, with the "safe" state assumption and the resulting 25-state model.
-- **Economy**: State-level unemployment was originally a poor predictor, but I found additional data from the [U.S. Bureau of Economic Analysis (BEA)](https://apps.bea.gov/regional/downloadzip.cfm), now focusing on quarterly state-level personal income level (similar to GDP, but state-level). In order to account for differences in the absolute size of each state economy, I used the percentage change in income instead.
+- **Economy**: State-level unemployment was originally a poor predictor, but I found additional data from the [U.S. Bureau of Economic Analysis (BEA)](https://apps.bea.gov/regional/downloadzip.cfm), now focusing on quarterly state-level personal income level (similar to GDP, but state-level). In order to account for differences in the absolute size of each state economy, I used the percentage change in income instead. *This variable actually had a significant impact when combined with the polling model, greatly improving the R-squared value!*
+- **Polling**: I continue to rely on state-level polling due to the high historical correlation, despite the limitations of cost and scarcity of data.
+- **Air War / Ground Campaign**: I decided not to consider mass-media advertising or ground-level campaign activities. The data for this election cycle is scarce (for obvious strategic reasons), and potentially unreliable.
+- 
 
 ## Model Formula
 

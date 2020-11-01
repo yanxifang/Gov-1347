@@ -38,14 +38,22 @@ Based on my analysis in previous weeks, **I found that polling data was the most
 
 However, those findings were based on all 50 states (plus DC), but now, only 25 states are in consideration. This justifies revisiting each of the factors that I've considered so far:
 
-- **Historical Data**: Already accounted for, with the "safe" state assumption and the resulting 25-state model.
+- **Historical Data**: I've already accounted for this, with the "safe" state assumption and the resulting 25-state model.
 - **Economy**: State-level unemployment was originally a poor predictor, but I found additional data from the [U.S. Bureau of Economic Analysis (BEA)](https://apps.bea.gov/regional/downloadzip.cfm), now focusing on quarterly state-level personal income level (similar to GDP, but state-level). In order to account for differences in the absolute size of each state economy, I used the percentage change in income instead. *This variable actually had a significant impact when combined with the polling model, greatly improving the R-squared value!*
 - **Polling**: I continue to rely on state-level polling due to the high historical correlation, despite the limitations of cost and scarcity of data.
 - **Air War / Ground Campaign**: I decided not to consider mass-media advertising or ground-level campaign activities. The data for this election cycle is scarce (for obvious strategic reasons), and potentially unreliable. Furthermore, there is only sparse data for the past several elections, making it difficult to generate a model.
-- **Shocks**: In theory, the effects of shocks, particularly the COVID-19 pandemic, should be already reflected in the polling data. Furthermore, even with COVID-19 cases and death data, I would still need to make an arbitrary determination about the size of the COVID-19 effect; I will be better off with 
+- **Shocks**: In theory, the effects of shocks, particularly the COVID-19 pandemic, should be already reflected in the polling data. Furthermore, even with COVID-19 cases and death data, I would still need to make an arbitrary determination about the size of the COVID-19 effect, which is not so mathematically sound.
 - **Laws & Administration**: Given that virtually all states and territories have changed their election laws to permit greater flexibility amid the COVID-19 pandemic, the effect of changes would again require an arbitrary determination.
 
 ## Model Formula / Coefficients, Weights, and Justifications
+After considering these factors, I decided to stick to a simpler approach, using only *historical data*, *the economy*, and *polling*. Again, only 25 states will be considered, which are:
+
+| Arizona | Arkansas | Colorado | Florida | Georgia |
+| Indiana | Iowa | Kentucky | Louisiana | Maine |
+| Michigan | Missouri | Montana | Nebraska | Nevada |
+| New Hampshire | New Mexico | North Carolina | Ohio | Pennsylvania |
+| Tennessee | Texas | Virginia | West Virginia | Wisconsin |
+
 This is my model:
 
 ![Final Prediction Model](https://yanxifang.github.io/Gov-1347/images/final_model.PNG)

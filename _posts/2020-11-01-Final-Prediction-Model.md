@@ -41,13 +41,18 @@ However, those findings were based on all 50 states (plus DC), but now, only 25 
 - **Historical Data**: Already accounted for, with the "safe" state assumption and the resulting 25-state model.
 - **Economy**: State-level unemployment was originally a poor predictor, but I found additional data from the [U.S. Bureau of Economic Analysis (BEA)](https://apps.bea.gov/regional/downloadzip.cfm), now focusing on quarterly state-level personal income level (similar to GDP, but state-level). In order to account for differences in the absolute size of each state economy, I used the percentage change in income instead. *This variable actually had a significant impact when combined with the polling model, greatly improving the R-squared value!*
 - **Polling**: I continue to rely on state-level polling due to the high historical correlation, despite the limitations of cost and scarcity of data.
-- **Air War / Ground Campaign**: I decided not to consider mass-media advertising or ground-level campaign activities. The data for this election cycle is scarce (for obvious strategic reasons), and potentially unreliable.
-- 
+- **Air War / Ground Campaign**: I decided not to consider mass-media advertising or ground-level campaign activities. The data for this election cycle is scarce (for obvious strategic reasons), and potentially unreliable. Furthermore, there is only sparse data for the past several elections, making it difficult to generate a model.
+- **Shocks**: In theory, the effects of shocks, particularly the COVID-19 pandemic, should be already reflected in the polling data. Furthermore, even with COVID-19 cases and death data, I would still need to make an arbitrary determination about the size of the COVID-19 effect; I will be better off with 
+- **Laws & Administration**: Given that virtually all states and territories have changed their election laws to permit greater flexibility amid the COVID-19 pandemic, the effect of changes would again require an arbitrary determination.
 
 ## Model Formula / Coefficients, Weights, and Justifications
 This is my model:
 
 ![Final Prediction Model](https://yanxifang.github.io/Gov-1347/images/final_model.PNG)
+
+As briefly mentioned above, the variables are as follows:
+- **avg_poll**: The average state-level poll results from polls released 45 days or fewer prior to the election. The 2020 data is taken from FiveThirtyEight.
+- **avg_delta_inc**: The average percent change in state-level total personal income 
 
 ## Model Validation: In-Sample and Out-of-Sample
 

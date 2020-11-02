@@ -72,12 +72,15 @@ As mentioned above, the variables are as follows:
 - **candidate_pv**: The predicted percent of the popular vote received by the incumbent candidate.
 
 ## Model Prediction
-The model above predicts the following outcomes for 2020: `215 EVs` for Trump, and `63 EVs` for Biden. This *excludes* Nebraska and Maine, since they have non-traditional methods of apportioning electoral votes. However, even when excluding Nebraska and Maine, and adding those outcomes to the `59` and `192` EVs already received from the "safe state" analysis, the final results are:
+The model above predicts the following outcomes for 2020: `215 EVs` for Trump, and `63 EVs` for Biden. This *excludes* Nebraska and Maine, since they have non-traditional methods of apportioning electoral votes. However, even when excluding Nebraska and Maine and just adding those initial outcomes to the `59` and `192` EVs already received from the "safe state" analysis, the final results are:
 
 | Candidate | Electoral Votes |
 | --- | --- |
-| Biden (D) | 315 |
-| Trump (R) | 153 |
+| Biden (D) | 255 |
+| Trump (R) | 274 |
+| Unallocated (ME) | 4 |
+| Unallocated (NE) | 5 |
+| Total Possible | 538 |
 
 ## Model Validation: In-Sample and Out-of-Sample
 

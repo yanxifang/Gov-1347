@@ -91,9 +91,20 @@ This indicates a *very* narrow victory for Trump, which is surprising because th
 As shown above, Trump is predicted to prevail in the battleground states of Ohio, Pennsylvania, Florida, Arizona, Georgia, Iowa, and North Carolina. However, Biden is successful in Nevada, Minnesota, Wisconsin, Michigan, and New Hampshire.
 
 ## Model Validation: In-Sample and Out-of-Sample
+The in-sample fit of my model is quite good, with a R-squared value of `0.8512`. This indicates a high degree of explanatory value for the historical data, which range from 1972 to 2016 for the polls, covering a span of 12 elections (and at least 25 data points for each election, since 25 states are considered). However, the mean-squared error (MSE) is `2.3601`, which is somewhat large considering that many states have predicted vote shares for Trump that are close to 50 percent.
+
+In leave-one-out out-of-sample validation, I decided to leave out 2016. This was for a single practical, significant reason: many polls incorrectly predicted the outcome of the 2016 election (heavily favoring Hilary Clinton), and since my model is heavily dependent on polls, perhaps 2016 was a fluke that either contributed positively or negatively toward my model. As it turns out, the R-squared value dropped slightly to `0.8151`, with significant changes to the model: the constant is now `4.38310` (higher than before), and the poll coefficient is now `0.94073` with the income change coefficient being `0.77324` (both lower than before). The median and mean of the residuals were `0.5155` and `0.5424` respectively, which is not too bad since the 2020 predictions do not have many states that are within 0.5% of 50%.
 
 ## Uncertainty and Predictive Intervals
-There is great uncertainty surrounding this model. In particular, the 
+There is great uncertainty surrounding this model. These are the predictive intervals for the states that are closest to a 50% popular vote share for Trump:
+| State | Predicted | Lower Bound | Upper Bound | EVs | Predicted Winner
+| --- | --- | --- | --- | --- |
+| Michigan | 49.04610 | 48.49331 | 49.59888 | 16 | D |
+| Nevada | 49.97832 | 49.31287 | 50.64398 | 6 | D |
+| Pennsylvania | 50.39226 | 49.88968 | 50.89483 | 20 | R |
+| Arizona | 50.42192 | 50.00182 | 50.84202 | R |
+| Florida | 50.38381 | 50.06392 | 50.70369 | R |
+| North Carolina | 50.63261 | 50.36750 | 50.89771 | R |
 
 ## Conclusion
 

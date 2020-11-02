@@ -88,10 +88,12 @@ This indicates a *very* narrow victory for Trump, which is surprising because th
 
 ![Final Prediction Map](https://yanxifang.github.io/Gov-1347/images/final_prediction_map.png)
 
+As shown above, Trump is predicted to prevail in the battleground states of Ohio, Pennsylvania, Florida, Arizona, Georgia, Iowa, and North Carolina. However, Biden is successful in Nevada, Minnesota, Wisconsin, Michigan, and New Hampshire.
+
 ## Model Validation: In-Sample and Out-of-Sample
 
 ## Uncertainty and Predictive Intervals
-There is great uncertainty surrounding this model. 
+There is great uncertainty surrounding this model. In particular, the 
 
 ## Conclusion
 

@@ -45,8 +45,8 @@ However, those findings were based on all 50 states (plus DC), but now, only 25 
 - **Shocks**: In theory, the effects of shocks, particularly the COVID-19 pandemic, should be already reflected in the polling data. Furthermore, even with COVID-19 cases and death data, I would still need to make an arbitrary determination about the size of the COVID-19 effect, which is not so mathematically sound.
 - **Laws & Administration**: Given that virtually all states and territories have changed their election laws to permit greater flexibility amid the COVID-19 pandemic, the effect of changes would again require an arbitrary determination.
 
-## Model Formula / Coefficients, Weights, and Justifications
-After considering these factors, I decided to stick to a simpler approach, using only *historical data*, *the economy*, and *polling*. Again, only 25 states will be considered, which are:
+## Model Formula / Coefficients and Justifications
+After considering these factors, I decided to stick to a simpler approach, using only *historical data*, *the economy*, and *polling*. Again, only 25 states will be considered in the model (with the remaining considered either solidly Democratic or solidly Republican). These 25 states are:
 
 | Arizona | Arkansas | Colorado | Florida | Georgia |
 | Indiana | Iowa | Kentucky | Louisiana | Maine |
@@ -54,13 +54,29 @@ After considering these factors, I decided to stick to a simpler approach, using
 | New Hampshire | New Mexico | North Carolina | Ohio | Pennsylvania |
 | Tennessee | Texas | Virginia | West Virginia | Wisconsin |
 
-This is my model:
+These are my considerations and justifications for using the other two variables:
+
+In terms of the economy, I was quite disappointed earlier this semester that the state-level unemployment turned out to be a poor predictor of election outcomes. Since economic conditions do vary across the 50 states, implying that voters in different geographical locations are likely to have different perceptions of the economy, I ruled out using a national model. Instead, I used a dataset from the U.S. Bureau of Economic Analysis that included quarterly state-level total personal income, an indicator somewhat similar to GDP. This is useful because it is a direct measure of income received by individuals. There are two challenges. First, states obviously vary in size and thus have different absolute amounts of income. I mitigated this issue by using percentage changes instead, which should not be an issue because the "declining returns to scale" principle is not applicable here. Second, relying on one quarter is usually not a good practice, so instead, I decided to rely on four quarters (a fully year) to form my model: the last quarter of the year before election year, and the first three quarters of the election year in question. I then calculated the three changes in income level (4th to 1st, 1st to 2nd, 2nd to 3rd), in percentages relative to the new income level (i.e. with the later-period income being the denominator). The average of these three percentages was used in my model, and while it did not create a meaningful model individually (producing an abysmal R-squared value of around `0.02`), it increased the polling model's R-squared value by around `0.12` when added.
+
+For the polling, I used the historical presidential state-level poll averages data from Week 3. Again, my cut-off date was 45 days before the election, since that was the median on the historical dataset. Polling averages constitute a very valuable determinant of the actual election outcome, because of the "wisdom of the crowd" and the greater accuracy that one can expect when many predictions are put together (and because of the many other reasons described in my [Week 3 post](https://yanxifang.github.io/Gov-1347/2020/09/25/Week-Three-Predictions.html)). By itself, the polling produced a much more meaningful model than the economic data, with a R-squared value of around `0.73`. This was enhanced significantly by adding the economic model.
+
+For both of these variables, I was also bound by constraints in making my determination. For instance, the BEA has not compiled/published the majority of the 2020 economic data, and I felt that the state-level personal income was the best indicator available (and even then, it is only available up until 2020Q2, which meant that I had one fewer quarter to base my 2020 calculations upon). Furthermore, as previously mentioned, there was not much data on media/advertising spending, while estimating the impacts of COVID-19 would require an arbitrary decision as to the number of deaths required to induce a notable decline in the incumbent's popular vote share. 
+
+With the considerations and justifications addressed, here is my model:
 
 ![Final Prediction Model](https://yanxifang.github.io/Gov-1347/images/final_model.PNG)
 
-As briefly mentioned above, the variables are as follows:
-- **avg_poll**: The average state-level poll results from polls released 45 days or fewer prior to the election. The 2020 data is taken from FiveThirtyEight.
-- **avg_delta_inc**: The average percent change in state-level total personal income 
+As mentioned above, the variables are as follows:
+- **avg_poll**: The average state-level poll results from polls released 45 days or fewer prior to the election. The 2020 data is taken from [FiveThirtyEight](https://github.com/fivethirtyeight/data/tree/master/polls), and I used the non-adjusted polling average.
+- **avg_delta_inc**: The average of three different percent changes in state-level total personal income: from the 4th quarter of the year before election year to the 1st quarter of election year, from the 1st to 2nd quarter of election year, and from the 2nd to 3rd quarter of election year. This data is from the [U.S. Bureau of Economic Analysis (BEA)](https://apps.bea.gov/regional/downloadzip.cfm). For 2020, I only used the average of the first two changes mentioned, since third-quarter state-level total personal income for 2020 is not yet available.
+
+## Model Prediction
+The model above predicts the following outcomes for 2020, in the 25 states: ` EVs` for Trump, and `EVs` for Biden. When adding these values to the `59` and `192` EVs already received from the "safe state" analysis, the final results are:
+
+| Candidate | Electoral Votes |
+| --- | --- |
+| Biden (D) | 315 |
+| Trump (R) | 153 |
 
 ## Model Validation: In-Sample and Out-of-Sample
 

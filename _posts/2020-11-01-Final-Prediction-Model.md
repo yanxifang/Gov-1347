@@ -102,9 +102,9 @@ There is great uncertainty surrounding this model. These are the predictive inte
 | Michigan | 49.04610 | 48.49331 | 49.59888 | 16 | D |
 | Nevada | 49.97832 | 49.31287 | 50.64398 | 6 | D |
 | Pennsylvania | 50.39226 | 49.88968 | 50.89483 | 20 | R |
-| Arizona | 50.42192 | 50.00182 | 50.84202 | R |
-| Florida | 50.38381 | 50.06392 | 50.70369 | R |
-| North Carolina | 50.63261 | 50.36750 | 50.89771 | R |
+| Arizona | 50.42192 | 50.00182 | 50.84202 | 11 | R |
+| Florida | 50.38381 | 50.06392 | 50.70369 | 29 | R |
+| North Carolina | 50.63261 | 50.36750 | 50.89771 | 15 | R |
 
 ## Conclusion
 

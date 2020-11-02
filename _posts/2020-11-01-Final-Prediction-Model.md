@@ -106,6 +106,6 @@ There is great uncertainty surrounding this model. These are the predictive inte
 | Florida | 50.38381 | 50.06392 | 50.70369 | 29 | R |
 | North Carolina | 50.63261 | 50.36750 | 50.89771 | 15 | R |
 
-## Conclusion
+These intervals suggest that in particular, Pennsylvania and its 20 EVs could easily be won by Biden, in which case Trump would lose the election. The other states are not as close to the 50% line, making them less of a concern. Furthermore, it is important to note that my model predicts the **popular vote share**, *not* the *two-party popular vote share*. When accounting for third-party candidates, the 50% level for Trump is much less of an issue.
 
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

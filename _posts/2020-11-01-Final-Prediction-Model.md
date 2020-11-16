@@ -113,4 +113,7 @@ As shown directly above, this model predicts only the narrowest of win margins f
 
 (*Update, 10:20pm* I was initially unable to get cross-validation to work; it turns out I had an extra comma.) For model validation, in cross-validation, the mean absolute value of the residuals was around `0.90` for two consecutive samples of 1,000 that I ran. This is a substantially larger value than the `0.54` obtained in leave-one-out, which further adds to the uncertainty of the model (and further increases the likelihood that it is incorrect, and that Biden will win). The updated script is in GitHub, as `Updated Final Prediction.R` to differentiate it from the original 9pm submission.
 
+## New Visual with `statebins` (Updated 11/16/2020)
+![Final Prediction Statebins](https://yanxifang.github.io/Gov-1347/images/final_prediction_statebins.png)
+
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

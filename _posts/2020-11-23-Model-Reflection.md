@@ -33,6 +33,15 @@ Looking more specifically at these three states:
 More generally, when considering all 25 states for which my model predicted a percentage of the popular vote, 
 
 ## Hypotheses
+**My hypotheses for the model's errors can be sorted into two distinct categories**: hypotheses about the model components that I used, and hypotheses about potential components that I omitted from the model.
+
+I will first address the two model components that were used in the model: the economic data (changes in the state-level gross income, as tabulated by the U.S. BEA), and the polling averages (data from FiveThirtyEight). As mentioned in developing the model, these two sources of data had a R-squared value of more than `0.85`, which reflects a high explanatory value for understanding the fluctuations in state-level outcomes for elections between 1972 and 2016, inclusive. However, there are a few potential issues with these two independent variables, some of which I explained when introducing the model. They are:
+
+- **Unavailability of more recent economic data for 2020.** 
+- **Continuing unreliability of polls in measuring the level of support for Trump, specifically.**
+- **
+
+Obviously, there are many other variables - beyond the economy and polling averages - that partially explain the state-level election outcomes.
 
 ## Proposed Hypothesis Tests
 

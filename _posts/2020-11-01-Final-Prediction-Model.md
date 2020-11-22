@@ -97,6 +97,7 @@ In leave-one-out out-of-sample validation, I decided to leave out 2016. This was
 
 ## Uncertainty and Predictive Intervals
 There is great uncertainty surrounding this model. These are the predictive intervals for the states that are closest to a 50% popular vote share for Trump:
+
 | State | Predicted | Lower Bound | Upper Bound | EVs | Predicted Winner |
 | --- | --- | --- | --- | --- | --- |
 | Michigan | 49.04610 | 48.49331 | 49.59888 | 16 | D |

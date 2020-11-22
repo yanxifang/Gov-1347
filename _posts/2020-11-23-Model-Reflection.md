@@ -26,7 +26,7 @@ Nationally, the semi-final electoral vote count is `306` to `232`, compared to m
 Looking more specifically at these three states:
 | State | Predicted (R) | Actual (R) | Difference |
 | --- | --- | --- | --- |
-| Arizona | 50.42192 | 50.00182 | 50.84202 |
+| Arizona | 50.42192 | | |
 | Georgia |  |  |  |
 | Pennsylvania | 50.39226 |  |  |
 

@@ -16,7 +16,7 @@ In building my predictive model, I considered many of the factors that could pot
 - **avg_delta_inc**: The average of three different percent changes in state-level total personal income: from the 4th quarter of the year before election year to the 1st quarter of election year, from the 1st to 2nd quarter of election year, and from the 2nd to 3rd quarter of election year. This data is from the [U.S. Bureau of Economic Analysis (BEA)](https://apps.bea.gov/regional/downloadzip.cfm). For 2020, I only used the average of the first two changes mentioned, since third-quarter state-level total personal income for 2020 is not yet available.
 - **candidate_pv**: The predicted percent of the popular vote received by the incumbent candidate.
 
-This model resulted in a prediction of `274 EVs` for Trump and `255 EVs` for Biden, with both Maine and Nebraska's electoral votes unalloted due to their unique apportioning systems. This is visualized below:
+This model resulted in a prediction of `274 EVs` for Trump and `255 EVs` for Biden, with both Maine and Nebraska's electoral votes unalloted due to their unique apportioning systems. The model only predicted both the outcome and vote share for 25 states; to account for the concept of "safe states", the model only provides a binary outcome for the remaining 25 states (plus DC). This is visualized below:
 
 ![Final Prediction Statebins](https://yanxifang.github.io/Gov-1347/images/final_prediction_statebins.png)
 
@@ -34,6 +34,8 @@ Looking more specifically at these three states, the differences are somewhat la
 More generally, when considering all 25 states for which my model predicted a percentage of the popular vote, my root mean squared error (RMSE) was `1.749774`. The state-level differences in vote share (i.e. `Predicted` minus `Actual`) are visualized below:
 
 ![Final Prediction Accuracy](https://yanxifang.github.io/Gov-1347/images/final_prediction_accuracy.png)
+
+As the visualization shows in green, all of the 25 states (plus DC) that my model designated as "safe states" remained as such types of states, meaning that they now have consistently voted for the same party for a total of 8 elections, from 1992 to 2020.
 
 ## Hypotheses
 **My hypotheses for the model's errors can be sorted into two distinct categories**: hypotheses about the model components that I used, and hypotheses about potential components that I omitted from the model.

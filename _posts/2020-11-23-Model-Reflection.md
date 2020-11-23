@@ -23,14 +23,15 @@ This model resulted in a prediction of `274 EVs` for Trump and `255 EVs` for Bid
 ## Model Accuracy
 Nationally, the semi-final electoral vote count is `306` to `232`, compared to my prediction of `255` and `274`. While this is a seemingly large discrepancy of `51 EVs` for Biden, it was the result of incorrectly predicting the outcome in only three states: Georgia, Nevada, and Pennsylvania. These states have `11`, `16`, and `20` electoral votes, respectively, which accounts for `47 EVs`; the remaining `4 EVs` come from the states of Maine and Nebraska, for which my model did not generate predictions. 
 
-Looking more specifically at these three states:
+Looking more specifically at these three states, the differences do not appear to be particularly large:
+
 | State | Predicted (R) | Actual (R) | Difference |
 | --- | --- | --- | --- |
 | Arizona | 50.42192 | 49.844364 | 0.577556 |
 | Georgia | 51.62904 | 49.856771 | 1.772269 |
 | Pennsylvania | 50.39226 | 49.504680 | 0.887580 |
 
-More generally, when considering all 25 states for which my model predicted a percentage of the popular vote, 
+More generally, when considering all 25 states for which my model predicted a percentage of the popular vote, my mean squared error (MSE)
 
 ## Hypotheses
 **My hypotheses for the model's errors can be sorted into two distinct categories**: hypotheses about the model components that I used, and hypotheses about potential components that I omitted from the model.

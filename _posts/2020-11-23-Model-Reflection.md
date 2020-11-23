@@ -31,7 +31,9 @@ Looking more specifically at these three states, the differences are somewhat la
 | Georgia | 51.62904 | 49.236990 | 2.3920496 |
 | Pennsylvania | 50.39226 | 48.865881 | 1.5263749 |
 
-More generally, when considering all 25 states for which my model predicted a percentage of the popular vote, my root mean squared error (RMSE) was `1.749774`.
+More generally, when considering all 25 states for which my model predicted a percentage of the popular vote, my root mean squared error (RMSE) was `1.749774`. The state-level differences in vote share (i.e. `Predicted` minus `Actual`) are visualized below:
+
+![Final Prediction Accuracy](https://yanxifang.github.io/Gov-1347/images/final_prediction_accuracy.png)
 
 ## Hypotheses
 **My hypotheses for the model's errors can be sorted into two distinct categories**: hypotheses about the model components that I used, and hypotheses about potential components that I omitted from the model.

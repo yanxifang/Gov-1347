@@ -31,16 +31,25 @@ Looking more specifically at these three states, the differences are somewhat la
 | Georgia | 51.62904 | 49.236990 | 2.3920496 |
 | Pennsylvania | 50.39226 | 48.865881 | 1.5263749 |
 
-More generally, when considering all 25 states for which my model predicted a percentage of the popular vote, my root mean squared error (RMSE) was `1.749774`. The state-level differences in vote share (i.e. `Predicted` minus `Actual`) are visualized below:
+More generally, when considering all 25 states for which my model predicted a percentage of the popular vote, my root mean squared error (RMSE) was `1.749774`. The state-level errors (i.e. differences in vote share, as calculated by `Predicted` minus `Actual`) are visualized below:
+
+![Final Prediction Errors](https://yanxifang.github.io/Gov-1347/images/final_prediction_residuals_color.png)
+
+From this "residual" plot, I made the following conclusions:
+
+- **6 states had more than a 2 percentage-point difference between the predicted and actual vote share.** Two were Republican-voting states, and four were Democratic-voting. These states, in descending order (highest to lowest error), are: Arkansas, New Mexico, Colorado, Tennessee, Georgia, and Nevada.
+- An examination of the underlying data shows that **Arkansas** was the state with the greatest error: my model under-predicted Trump's vote share by more than 4.6 percentage points. This is surprising because I had expected my model to over-predict Trump's vote share in general.
+- **Overall, my model under-predicted for more Democratic states than it over-predicted for Republican states.** This was not unexpected: as explained when I initially laid out the model, the economic data is flawed because it reflects an increase in income for the most recent period (2020:Q2), despite the fact that many Americans are out of work due to COVID-19. Since rational voters would reward incumbents for good economic performance, this overly-optimistic snapshot of the economy would have "helped" Trump when making the predictions.
+
+Below is a geographic visualization of the errors:
 
 ![Final Prediction Accuracy](https://yanxifang.github.io/Gov-1347/images/final_prediction_accuracy.png)
 
 Some takeaways from this visualization (and a careful inspection of the underlying data):
 
-- **6 states had more than a 2 percentage-point difference between the predicted and actual vote share.** These states, in descending order (highest to lowest difference), are: Arkansas, New Mexico, Colorado, Tennessee, Georgia, and Nevada. Each of these states had more than a 2 percentage-point difference between the predicted and actual vote share values.
-- **Arkansas** was the state with the greatest discrepancy: my model under-predicted Trump's vote share by more than 4.6 percentage points. This is surprising because I had expected my model to over-predict Trump's vote share in general.
-- **Overall, my model under-predicted for more Democratic states than it over-predicted for Republican states.** This was actually expected: as explained when I initially laid out the model, the economic data is flawed because it reflects an increase in income for the most recent period (2020-Q2), despite the fact that many Americans are out of work due to COVID-19. This overly-optimistic snapshot of the economy would have "helped" Trump when making the predictions.
-- As shown in green, **my assumptions about "safe states" were correct**: all of the 25 states (plus DC) that my model designated as "safe states" remained as such, meaning that they now have consistently voted for the same party for a total of 8 elections, from 1992 to 2020.
+- As shown in green, **my assumptions about "safe states" were correct**: all of the 25 states (plus DC) that my model designated as "safe states" remained as such, meaning that they now have consistently voted for the same party for a total of 8 elections, from 1992 to 2020. While others have noted (in class) that 45 states remained safe between the 2016 and 2020 election, I believe that going back further in time is more rigorous approach.
+- **There are no evident patterns in my errors.** For instance, while I under-predicted the winning party's voteshare in *both* solidly-blue states (e.g. New Mexico, Colorado) and solidly-red states (e.g. Arkansas, Tennessee), similarly "safe" states like Virginia, West Virginia, and Kentucky had much smaller margins of under- or over-prediction.
+
 
 ## Hypotheses
 **My hypotheses for the model's errors can be sorted into two distinct categories**: hypotheses about the model components that I used, and hypotheses about potential components that I omitted from the model.

@@ -31,5 +31,5 @@ Friday, October 23, 2020: I will examine the role of shocks in presidential elec
 ### [Final Prediction Model](https://yanxifang.github.io/Gov-1347/2020/11/01/Final-Prediction-Model.html)
 Sunday, November 1, 2020: This is my final prediction model for the 2020 presidential election! Click to see more.
 
-### [Reflection on Model](https://yanxifang.github.io/Gov-1347/2020/11/23/Model-Reflection.html)
+### [Post-Election Model Reflection](https://yanxifang.github.io/Gov-1347/2020/11/23/Model-Reflection.html)
 Monday, November 23, 2020: With the election results now available, I re-examine my model and evaluate its pros and cons.

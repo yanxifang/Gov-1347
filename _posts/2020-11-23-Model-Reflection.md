@@ -31,7 +31,7 @@ Looking more specifically at these three states, the differences do not appear t
 | Georgia | 51.62904 | 49.856771 | 1.772269 |
 | Pennsylvania | 50.39226 | 49.504680 | 0.887580 |
 
-More generally, when considering all 25 states for which my model predicted a percentage of the popular vote, my mean squared error (MSE)
+More generally, when considering all 25 states for which my model predicted a percentage of the popular vote, my root mean squared error (RMSE) was `1.749774`.
 
 ## Hypotheses
 **My hypotheses for the model's errors can be sorted into two distinct categories**: hypotheses about the model components that I used, and hypotheses about potential components that I omitted from the model.

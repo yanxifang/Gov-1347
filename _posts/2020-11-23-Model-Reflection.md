@@ -31,7 +31,7 @@ Looking more specifically at these three states, the differences are somewhat la
 | Georgia | 51.62904 | 49.236990 | 2.3920496 |
 | Pennsylvania | 50.39226 | 48.865881 | 1.5263749 |
 
-More generally, when considering all 25 states for which my model predicted a percentage of the popular vote, my root mean squared error (RMSE) was `1.749774`. The state-level errors (i.e. differences in vote share, as calculated by `Predicted` minus `Actual`) are visualized below:
+More generally, when considering all 25 states for which my model predicted a percentage of the popular vote, my root mean squared error (RMSE) was `8.748868`, which is slightly worse than the class average of `6.81`. The state-level errors (i.e. differences in vote share, as calculated by `Predicted` minus `Actual`) are visualized below:
 
 ![Final Prediction Errors](https://yanxifang.github.io/Gov-1347/images/final_prediction_residuals_color.png)
 
@@ -50,13 +50,12 @@ Some takeaways from this visualization (and a careful inspection of the underlyi
 - As shown in green, **my assumptions about "safe states" were correct**: all of the 25 states (plus DC) that my model designated as "safe states" remained as such, meaning that they now have consistently voted for the same party for a total of 8 elections, from 1992 to 2020. While others have noted (in class) that 45 states remained safe between the 2016 and 2020 election, I believe that going back further in time is more rigorous approach.
 - **There are no evident patterns in my errors.** For instance, while I under-predicted the winning party's voteshare in *both* solidly-blue states (e.g. New Mexico, Colorado) and solidly-red states (e.g. Arkansas, Tennessee), similarly "safe" states like Virginia, West Virginia, and Kentucky had much smaller margins of under- or over-prediction.
 
-
 ## Hypotheses
-**My hypotheses for the model's errors can be sorted into two distinct categories**: hypotheses about the model components that I used, and hypotheses about potential components that I omitted from the model.
+**There are two distinct categories for hypothesizing about my model's errors: one focused on the model components that I used, and one focused on potential components that I omitted from the model.** Both are important for explaining why my model was ultimately inaccurate overall (i.e. predicting a Trump victory by a slim EV margin), and for explaining why my model had such large errors in what should be easy-to-predict states like Arkansas, Tennessee, Colorado, and New Mexico.
 
 I will first address the two model components that were used in the model: the economic data (changes in the state-level gross income, as tabulated by the U.S. BEA), and the polling averages (data from FiveThirtyEight). As mentioned in developing the model, these two sources of data had a R-squared value of more than `0.85`, which reflects a high explanatory value for understanding the fluctuations in state-level outcomes for elections between 1972 and 2016, inclusive. However, there are a few potential issues with these two independent variables, some of which I explained when introducing the model. They are:
 
-- **Unavailability of more recent economic data for 2020.** 
+- **Unavailability of more recent economic data for 2020.** When I made the model, the BEA had just released its preliminary estimate for the 2020:Q3 
 - **Continuing unreliability of polls in measuring the level of support for Trump, specifically.**
 - **
 

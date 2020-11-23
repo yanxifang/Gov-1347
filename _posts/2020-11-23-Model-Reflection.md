@@ -35,7 +35,12 @@ More generally, when considering all 25 states for which my model predicted a pe
 
 ![Final Prediction Accuracy](https://yanxifang.github.io/Gov-1347/images/final_prediction_accuracy.png)
 
-As the visualization shows in green, all of the 25 states (plus DC) that my model designated as "safe states" remained as such types of states, meaning that they now have consistently voted for the same party for a total of 8 elections, from 1992 to 2020.
+Some takeaways from this visualization (and a careful inspection of the underlying data):
+
+- The states with the greatest absolute-value difference between the predicted and actual vote share, in descending order, are: **Arkansas, New Mexico, Colorado, Tennessee, Georgia, and Nevada.** Each of these states had more than a 2 percentage-point difference between the predicted and actual vote share values.
+- **Arkansas** was the state with the greatest discrepancy: my model under-predicted Trump's vote share by more than 4.6 percentage points. This is surprising because I had expected my model to over-predict Trump's vote share in general.
+- **Overall, my model under-predicted for more Democratic states than it over-predicted for Republican states.** This is not surprising; as explained when I initially published the model, the economic data used is quite flawed because the most recent period, Q2 of 2020, reflects a major increase in income, despite the fact that many Americans are out of work due to the COVID-19 pandemic. This, in theory, should have led to an over-prediction of Trump's voteshare, which *is* seen here.
+- As shown in green, all of the 25 states (plus DC) that my model designated as "safe states" remained as such types of states, meaning that they now have consistently voted for the same party for a total of 8 elections, from 1992 to 2020.
 
 ## Hypotheses
 **My hypotheses for the model's errors can be sorted into two distinct categories**: hypotheses about the model components that I used, and hypotheses about potential components that I omitted from the model.

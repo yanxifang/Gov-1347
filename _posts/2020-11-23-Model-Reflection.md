@@ -26,9 +26,9 @@ Nationally, the semi-final electoral vote count is `306` to `232`, compared to m
 Looking more specifically at these three states:
 | State | Predicted (R) | Actual (R) | Difference |
 | --- | --- | --- | --- |
-| Arizona | 50.42192 | | |
-| Georgia |  |  |  |
-| Pennsylvania | 50.39226 |  |  |
+| Arizona | 50.42192 | 49.844364 | 0.577556 |
+| Georgia | 51.62904 | 49.856771 | 1.772269 |
+| Pennsylvania | 50.39226 | 49.504680 | 0.887580 |
 
 More generally, when considering all 25 states for which my model predicted a percentage of the popular vote, 
 

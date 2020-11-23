@@ -21,7 +21,7 @@ This model resulted in a prediction of `274 EVs` for Trump and `255 EVs` for Bid
 ![Final Prediction Statebins](https://yanxifang.github.io/Gov-1347/images/final_prediction_statebins.png)
 
 ## Model Accuracy
-Nationally, the semi-final electoral vote count is `306` to `232`, compared to my prediction of `255` and `274`. While this is a seemingly large discrepancy of `51 EVs` for Biden, it was the result of incorrectly predicting the outcome in only three states: Georgia, Nevada, and Pennsylvania. These states have `11`, `16`, and `20` electoral votes, respectively, which accounts for `47 EVs`; the remaining `4 EVs` come from the states of Maine and Nebraska, for which my model did not generate predictions. 
+**Nationally, the semi-final electoral vote count is 306 to 232, compared to my prediction of 255 and 274.** While this is a seemingly large discrepancy of `51 EVs` for Biden, it was the result of incorrectly predicting the outcome in *just three states*: Georgia, Nevada, and Pennsylvania. These states have 11, 16, and 20 electoral votes respectively, accounting for 47 EVs; the remaining 4 EVs come from the states of Maine and Nebraska, for which my model did not generate predictions. 
 
 Looking more specifically at these three states, the differences are somewhat large, considering that the predicted values are so close to 50 percent. Note that my model predicted the Republican Party's share of the *total* vote, *not* the 2-party voteshare, so the values listed under `actual` in the table below will differ slightly from the `pv2p` values in the common class dataset.
 

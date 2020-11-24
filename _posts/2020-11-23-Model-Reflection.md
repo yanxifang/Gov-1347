@@ -67,10 +67,12 @@ Obviously, there are many other variables - beyond the economy and polling avera
 
 ## Proposed Hypothesis Tests
 For my "in-model" hypotheses, I would perform the following tests (in theory):
-- **Unavailability of more recent economic data:** wait until the BEA releases Q3 data for 2020, which will likely take place in the coming months. Since federal spending from the CARES Act has been severely curtailed in the 2-3 months leading up to Election Day (e.g. the expiration of the $600 unemployment supplement), this should be reflected in the level of state-level gross income that I use. Since I used data up to Q3 for all the past election years, 1972 to 2016, I would expect that using 2020:Q3 data would greatly reduce the size of my errors. However, if there
+- **Unavailability of more recent economic data:** wait until the BEA releases Q3 data for 2020, which will likely take place in the coming months. Since federal spending from the CARES Act has been severely curtailed in the 2-3 months leading up to Election Day (e.g. the expiration of the $600 unemployment supplement), this should be reflected in the level of state-level gross income that I use. With the Q3 data, I would re-run the model to find new predicted values; since I had used data up to Q3 for all the past election years in generating the model, I would expect that using 2020:Q3 data would greatly reduce the size of my errors. If the errors are, in fact, reduced overall, then it would prove my hypothesis that the Q2 economic data was an inaccurate representation of the economic conditions that voters faced on Election Day (or slightly earlier, if voting by mail). However, if the errors are similar or even larger in magnitude, that would imply that the state-level gross income is not a good proxy for economic conditions in the context of 2020 and the COVID-19 pandemic.
+- **COVID stimulus and different impacts based on state wealth:** 
+
+
+## Lessons Learned / What To Do Differently
+If I were to create a model again, I would take a number of steps to change my model:
 - **
-
-
-## Lessons Learned
 
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

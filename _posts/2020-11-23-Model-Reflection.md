@@ -77,6 +77,7 @@ For my "in-model" hypotheses, I would perform the following tests (in theory):
 ## Lessons Learned / What To Do Differently
 If I were to create a model again, I would take a number of steps to change my model:
 - **Include 1-2 additional variables** to account for the complexity of the 2020 situation. Besides the obvious example of COVID-19 deaths and related impacts, 2020 was fraught with policy disagreements, significant polarization on both sides of the political aisle, and deep racial tensions. An obvious one is the number of COVID-19 deaths (per capita) in any given state, but other potential variables to include are the number of racial-justice protests in a state, or perhaps an index of ideological divisiveness.
-- **Look for other ways to account for economic conditions.** The is obviously not perfect, 
+- **Look for other ways to account for economic conditions.** The state-level gross income is obviously not perfect as a measure of the economy, both because it is not an indicator of individual-level conditions (i.e. business income counts, too), and because it has been distorted amid the COVID-19 emergency spending. In creating the model again, I would see if measures of personal income at the state level are available, perhaps from a source other than the BEA (e.g. FRED, which is run by the St. Louis Fed).
+- 
 
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

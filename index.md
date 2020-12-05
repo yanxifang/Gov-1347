@@ -35,4 +35,4 @@ Sunday, November 1, 2020: This is my final prediction model for the 2020 preside
 Monday, November 23, 2020: With the election results now available, I re-examine my model and evaluate its pros and cons.
 
 ### [Testing an Election Narrative](https://yanxifang.github.io/Gov-1347/2020/12/10/Election-Narrative.html)
-Thursday, December 10, 2020: Now that the election has concluded, I use data to test whether a descriptive narrative is supported by the data.
+Thursday, December 10, 2020: Now that the election has concluded, I use data to test whether a descriptive narrative (specifically, the strong Trump support among minorities compared to 2016) is supported by the data.

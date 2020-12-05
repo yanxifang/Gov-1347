@@ -6,8 +6,8 @@ date: "2020-12-10"
 ## Testing an Election Narrative
 *Thursday, December 10, 2020*
 
-## The Narrative: Black and Latinx Americans Voting for Trump
-Many media outlets, including (), (), and (), have reported on Trump's apparent **increase** in support among Black and Latinx Americans, and particularly among male members of those groups.
+## The Narrative: 
+
 
 
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

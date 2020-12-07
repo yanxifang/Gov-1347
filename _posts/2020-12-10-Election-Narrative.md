@@ -15,6 +15,9 @@ This is important to consider not only because McCain herself has [taken credit]
 
 **The testable implication is that demographic changes and the economy, which are predictable and observable (respectively), don't matter as much as a "black swan"-type shock (i.e. McCain's endorsement of Biden),** at least in Arizona. Below, I will analyze some of the available data, including exit polls, [officlal results from the Arizona U.S. Senate race](https://azsos.gov/sites/default/files/2020_General_State_Canvass.pdf), and demographic data to see whether there's some quantitative evidence that is consistent with this "McCain theory" of Biden's win in Arizona.
 
+## Polling
+If McCain's endorsement of Biden did have an effect, **the most convincing indicator will come from state-level polling data** in the form of a bump in Biden support in the days after the endorsement ([September 22, 2020](https://apnews.com/article/election-2020-arizona-john-mccain-cindy-mccain-joe-biden-6eea561a0fc235651ae6d01b64546492)).
+
 ## Demographics
 While McCain's influence could have been significant in persuading moderates (and Republicans alienated by Trump) to vote for Biden instead, **demographics have also been cited as an important reason for the state flipping parties.** For example, [NPR](https://www.npr.org/sections/live-updates-2020-election-results/2020/11/13/934591289/how-the-navajo-nation-helped-flip-arizona-for-democrats) and the [Associated Press](https://apnews.com/article/election-2020-joe-biden-flagstaff-arizona-voting-rights-fa452fbd546fa00535679d78ac40b890) cite the role of the Navajo Nation in supporting Biden, while [NBC](https://www.nbcnews.com/news/latino/years-making-established-latino-groups-helped-biden-arizona-nevada-n1246864) and [Washington Post](https://www.washingtonpost.com/politics/arizona-trump-biden/2020/11/07/9f64475a-1fb7-11eb-ba21-f2f001f0554b_story.html) point to the growing Latinx population as a reason for Arizona becoming more blue. These two demographic groups, overall, tend to vote for Democrats
 
@@ -24,8 +27,7 @@ In addition to the Navajo Nation and Arizona's Latinx population, **there is als
 - Fundamentals: economy
 - Fundamentals: COVID cases
 
-## Polling
-Although there is strong data that makes the , 
+
 
 ## Conclusion
 

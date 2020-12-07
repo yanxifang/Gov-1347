@@ -18,8 +18,6 @@ While McCain's influence could have been significant in persuading moderates (an
 
 In addition to the Navajo Nation and Arizona's Latinx population, **there is also a sizeable group of politically independent and moderate voters in Arizona.** These are the people that McCain has claimed credit for, given that Sen. McCain was often amenable to bipartisanship and compromise during his time in office.
 
-- Demographics: independents and moderates
-
 ## Fundamentals
 - Polling in favor of Biden
 - Fundamentals: economy

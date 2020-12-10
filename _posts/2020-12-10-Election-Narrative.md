@@ -35,11 +35,12 @@ An alternative angle is demographics: while McCain's influence could have been s
 
 In addition to the Navajo Nation and Arizona's Latinx population, **there is also a sizeable group of politically independent and moderate voters in Arizona.** These are the people that McCain has claimed credit for, given that Sen. McCain was often amenable to bipartisanship and compromise during his time in office.
 
-## Fundamentals
+## Fundamentals: Economy & COVID
 - Fundamentals: economy
-- Fundamentals: COVID cases
 
+Fundamentals: COVID cases
 
+![Arizona COVID Cases](https://yanxifang.github.io/Gov-1347/images/az_covid_cases.png)
 
 ## Conclusion
 

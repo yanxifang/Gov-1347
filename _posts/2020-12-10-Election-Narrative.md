@@ -20,9 +20,11 @@ If McCain's endorsement of Biden did have an effect, **the most convincing indic
 
 ![Arizona Polls for Biden](https://yanxifang.github.io/Gov-1347/images/az_polls.png)
 
-While the number of polls was not large at 77 (which was expected, given that state-level polling is expensive)
+While the number of polls was not large at just 77 (which was expected, given that state-level polling is generally very expensive and time-consuming relative to the benefits that a candidate could reap), the resulting visual does seem interpretable. In particular, the poll data does *not* indicate a prolonged effect of McCain's endorsement: while the poll percentages increased significantly in the days after the September 22 endorsement, they soon decreased and settled back at around the 47.5% range, the same level as pre-endorsement. In other words, the polls did not indicate a  Since the Biden poll is not particularly meaningful by itself, below is a visualized comparison between the Biden and Trump poll levels:
 
 ![Arizona Polls for Both Candidates](https://yanxifang.github.io/Gov-1347/images/az_polls_all.png)
+
+However, a major problem with using this data is that polls do not continuously release results, meaning that the day-to-day variations (and oscillations) in the data are more indicative of differences in the predictions of individual polls, rather than of an actual, substantial public change
 
 
 ## Demographics

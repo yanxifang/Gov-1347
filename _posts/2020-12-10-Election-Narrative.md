@@ -41,7 +41,7 @@ I ran two separate regressions, one with the nominal data (the percent of Indige
 
 Here, the impacts of the Indigenous / Native American population on Biden's victory seem to be ambigious: the top graph shows that counties with a high proportion of Indigenous people are predicted to have higher vote percentages in favor of Biden, but the bottom graph predicts a decrease in Democratic presidential voteshare from 2016 to 2020 for counties that experience an increase in Indigenous population during the same period. (Note: although the bottom graph does include an outlier, Santa Cruz County, the coefficient becomes even more negative, `-0.1816`, when it is removed, thus preserving the negative trend.) Because the two graphs show different data, and result in completely opposite conclusions, I decided to add more analysis.
 
-Below, I mapped the concentrations of Indigenous / Native American people living in Arizona by county, followed by the 2020 Biden voteshare in each county. This was intended to provide a more visual representation, and perhaps allow more detailed observation that was not possible in the two plots above. **As shown below, 
+Below, I mapped the concentrations of Indigenous / Native American people living in Arizona by county, followed by the 2020 Biden voteshare in each county. This was intended to provide a more visual representation, and perhaps allow more detailed observation that was not possible in the two plots above. **As shown below, it seems quite clear that Indigenous people contributed to Biden's victory in the state.**
 
 ![Arizona Indigenous Population and 2020 Biden Voteshare](https://yanxifang.github.io/Gov-1347/images/az_indigenous_biden.png)
 
@@ -57,6 +57,8 @@ Fundamentals: COVID cases
 ![Arizona COVID Cases](https://yanxifang.github.io/Gov-1347/images/az_covid_cases.png)
 
 ## Conclusion
-
+To summarize, I started out with the media narrative that Cindy McCain's unusual endorsement of Biden was a significant contributor to his victory in the state of Arizona. The subsequent implication was that the fundamentals don't matter as much as "October surprises", in the sense that McCain's decision came (somewhat) unexpectedly and could not have been predicted in advance. A similar implication is whether Arizona's blue wave in 2020 is a one-off or a long-term change, which has clear consequences due to the state's 11 not-inconsequential electoral votes. My findings were as follows:
+- The polls were **not** in support of the McCain narrative: poll averages did not change significantly (or at least not durably) between McCain's endorsement on September 22 and election day on November 3.
+- The Indigenous population data were **in support, but of the *fundamentals* narrative**. 
 
 Click [here](https://yanxifang.github.io/Gov-1347) to return to the front page.

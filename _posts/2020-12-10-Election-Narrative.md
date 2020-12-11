@@ -41,18 +41,20 @@ I ran two separate regressions, one with the nominal data (the percent of Indige
 
 Here, the impacts of the Indigenous / Native American population on Biden's victory seem to be ambigious: the top graph shows that counties with a high proportion of Indigenous people are predicted to have higher vote percentages in favor of Biden, but the bottom graph predicts a decrease in Democratic presidential voteshare from 2016 to 2020 for counties that experience an increase in Indigenous population during the same period. (Note: although the bottom graph does include an outlier, Santa Cruz County, the coefficient becomes even more negative, `-0.1816`, when it is removed, thus preserving the negative trend.) Because the two graphs show different data, and result in completely opposite conclusions, I decided to add more analysis.
 
-Below, I mapped the concentrations of Indigenous / Native American people living in Arizona by county, followed by the 2020 Biden voteshare in each county. This was intended to provide a more visual representation, and perhaps allow more detailed observation that was not possible in the two plots above. **As shown below, it seems quite clear that Indigenous people contributed to Biden's victory in the state.**
+Below, I mapped the concentrations of Indigenous / Native American people living in Arizona by county, followed by the 2020 Biden voteshare in each county. This was intended to provide a more visual representation, and perhaps allow more detailed observation that was not possible in the two plots above. As shown below, it seems quite clear that Indigenous people have contributed to Biden's victory in the state. This is particularly true of Coconino, Navajo, and Apache Counties, which all have large Indigenous populations and cast a high number of votes for Biden. 
 
 ![Arizona Indigenous Population and 2020 Biden Voteshare](https://yanxifang.github.io/Gov-1347/images/az_indigenous_biden.png)
 
+However, the southern part of the state seems more inconclusive, since Yuma, Pima, Santa Cruz, and Cochise Counties all had large Biden voteshares but low numbers of Indigenous people. So, I plotted the *change in Democratic voteshare* from 2016 to 2020, rather than the nominal value of the Biden voteshare.
+
 ![Arizona Indigenous Population and Change in D Voteshare](https://yanxifang.github.io/Gov-1347/images/az_indigenous_delta_d.png)
 
-In addition to the Navajo Nation and Arizona's Latinx population, **there is also a sizeable group of politically independent and moderate voters in Arizona.** These are the people that McCain has claimed credit for, given that Sen. McCain was often amenable to bipartisanship and compromise during his time in office.
+As shown above, counties with both 
 
-## Fundamentals: Economy & COVID
-- Fundamentals: economy
+Nonetheless, there are a few flaws to this method of analysis. In particular, the map and percentage-change graphs all ignore an important factor: the absolute number of people living in each county. Since electoral votes are allocated based on the majority winner across the entire state, wins of counties -- even those that are geographically large on the map -- don't mean very much if it has very few people. This implies that a population-based approach might come up with different answers to the role of Indigenous people in delivering the Biden victory in Arizona. Furthermore, in addition to the Navajo Nation and Arizona's Latinx population, there is also a sizeable group of politically independent and moderate voters in Arizona. These are the people that McCain has claimed credit for, given that Sen. McCain was often amenable to bipartisanship and compromise during his time in office. It is quite difficult to measure people's beliefs and levels of "conservatism" or inclination toward moderate policies, and there are not many alternatives to exit polls (which are more flawed this year due to the sheer volume of ballots cast via mail-in and early voting), so this is a part of the demographics/fundamentals puzzle that is yet to be solved.
 
-Fundamentals: COVID cases
+## Fundamentals: COVID
+In addition to demographics, the COVID-19 pandemic has severely impacted Americans across the country. Arizona is no exception. While the 
 
 ![Arizona COVID Cases](https://yanxifang.github.io/Gov-1347/images/az_covid_cases.png)
 
